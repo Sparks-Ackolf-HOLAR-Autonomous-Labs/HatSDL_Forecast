@@ -23,8 +23,9 @@ The experiments themselves need a PostgreSQL copy of AURORA's production databas
 | Fig. 1 | `paper_figures/figures/fig_loop.png` | `paper_figures/regen_figs/fig_loop.py` | none (schematic) |
 | Fig. 2 | `paper_figures/figures/fig_e1a_latency.png` | `paper_figures/regen_figs/fig_e1_latency.py` | results/aurora/e1a_curves.json (from gym/e1_curves.py over the 90 E1 run files) |
 | Fig. 3 | `paper_figures/figures/fig_e2_users.png` | `paper_figures/regen_figs/fig_e2_users.py` | results/aurora/e2_*_s*.json.gz (90 run files) |
+| Fig. 4 | `paper_figures/figures/fig_agents.png` | `paper_figures/regen_figs/fig_agents.py` | results/aurora_agents/e3_A.jsonl, e3_A-V.jsonl, e3_B.jsonl, e3b_claude_marks.jsonl, e3b_rest_log.jsonl |
+| Fig. 5 | `paper_figures/figures/fig_e4b_surge.png` | `paper_figures/regen_figs/fig_e4b_surge.py` | results/aurora/e4b/e4b_surge_s*.json (30 seeds) |
 | Fig. A1 (Supplementary Fig. S1) | `paper_figures/figures/fig_e4_admission.png` | `paper_figures/regen_figs/fig_e4_admission.py` | results/aurora/e4_admission_s*.json (30 seeds) |
-| Fig. 4 | `paper_figures/figures/fig_e4b_surge.png` | `paper_figures/regen_figs/fig_e4b_surge.py` | results/aurora/e4b/e4b_surge_s*.json (30 seeds) |
 
 ## Tables
 
@@ -32,13 +33,13 @@ The experiments themselves need a PostgreSQL copy of AURORA's production databas
 |---|---|
 | Table 1 | results/aurora/profile.json (AURORA contents and usage counters; gym/aurora_src.py profile), write_profile.json (gym/aurora_users.py write-profile) |
 | E1 numbers in the text | results/aurora/e1a_summary.md (gym/analyze_aurora.py from e1a_run_stats.json) |
-| Table 2 | results/aurora/e2_summary.md (gym/analyze_users.py) |
-| Table 3 | results/aurora_agents/e3_summary.md, e3b_summary.md (gym/analyze_agents.py, gym/analyze_byo.py) |
-| Table A3 | results/aurora/e2b_summary.md (gym/analyze_capacity.py) |
-| Tables A4-A5 | results/aurora/e2c_summary.md (gym/analyze_national.py) |
-| Table A6 | results/aurora_multi/ (gym/analyze_multi.py) |
-| Tables A7-A8 | results/aurora/e4_summary.md, stats_tests.md (gym/analyze_admission.py, gym/stats_tests.py) |
-| Tables A9-A10 | results/aurora/e4b/summary.md, stats.json (gym/analyze_surge.py) |
+| Table 2 | results/aurora_agents/e3_summary.md, e3b_summary.md (gym/analyze_agents.py, gym/analyze_byo.py) |
+| Table A3 | results/aurora/e2_summary.md (gym/analyze_users.py) |
+| Table A4 | results/aurora/e2b_summary.md (gym/analyze_capacity.py) |
+| Tables A5-A6 | results/aurora/e2c_summary.md (gym/analyze_national.py) |
+| Table A7 | results/aurora_multi/ (gym/analyze_multi.py) |
+| Tables A8-A9 | results/aurora/e4_summary.md, stats_tests.md (gym/analyze_admission.py, gym/stats_tests.py) |
+| Tables A10-A11 | results/aurora/e4b/summary.md, stats.json (gym/analyze_surge.py) |
 
 ## Licence
 

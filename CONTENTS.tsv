@@ -4,8 +4,8 @@ path	role	bytes
 CITATION.cff	repository file	869
 LICENSE	repository file	1093
 LICENSE-CC-BY-4.0.txt	repository file	18657
-README.md	repository file	3979
-REPRODUCE.md	documentation (CC BY 4.0)	7514
+README.md	repository file	4181
+REPRODUCE.md	documentation (CC BY 4.0)	7515
 gym/__init__.py	code (MIT)	0
 gym/agent_latency.py	code (MIT)	22713
 gym/analyze_admission.py	code (MIT)	4554
@@ -33,18 +33,20 @@ gym/e1_run_stats.py	code (MIT)	3168
 gym/multi_agent.py	code (MIT)	22044
 gym/rest_api.py	code (MIT)	10322
 gym/stats_tests.py	code (MIT)	7841
-paper_figures/figures/fig_e1a_latency.png	figure (CC BY 4.0)	343519
-paper_figures/figures/fig_e2_users.png	figure (CC BY 4.0)	339059
-paper_figures/figures/fig_e4_admission.png	figure (CC BY 4.0)	279864
-paper_figures/figures/fig_e4b_surge.png	figure (CC BY 4.0)	273533
-paper_figures/figures/fig_loop.pdf	figure (CC BY 4.0)	27201
-paper_figures/figures/fig_loop.png	figure (CC BY 4.0)	394542
-paper_figures/regen_figs/fig_e1_latency.py	code (MIT)	2429
-paper_figures/regen_figs/fig_e2_users.py	code (MIT)	2971
-paper_figures/regen_figs/fig_e4_admission.py	code (MIT)	2709
-paper_figures/regen_figs/fig_e4b_surge.py	code (MIT)	3498
-paper_figures/regen_figs/fig_loop.py	code (MIT)	2941
-paper_figures/regen_figs/paper_fig_style.py	code (MIT)	2690
+paper_figures/figures/fig_agents.png	figure (CC BY 4.0)	229990
+paper_figures/figures/fig_e1a_latency.png	figure (CC BY 4.0)	350582
+paper_figures/figures/fig_e2_users.png	figure (CC BY 4.0)	462774
+paper_figures/figures/fig_e4_admission.png	figure (CC BY 4.0)	263184
+paper_figures/figures/fig_e4b_surge.png	figure (CC BY 4.0)	446288
+paper_figures/figures/fig_loop.pdf	figure (CC BY 4.0)	26283
+paper_figures/figures/fig_loop.png	figure (CC BY 4.0)	465298
+paper_figures/regen_figs/fig_agents.py	code (MIT)	4716
+paper_figures/regen_figs/fig_e1_latency.py	code (MIT)	2669
+paper_figures/regen_figs/fig_e2_users.py	code (MIT)	4296
+paper_figures/regen_figs/fig_e4_admission.py	code (MIT)	2758
+paper_figures/regen_figs/fig_e4b_surge.py	code (MIT)	5492
+paper_figures/regen_figs/fig_loop.py	code (MIT)	3227
+paper_figures/regen_figs/paper_fig_style.py	code (MIT)	3327
 requirements.txt	repository file	161
 results/aurora/behaviour_model.json	result file (CC BY 4.0)	3335
 results/aurora/behaviour_model_users.json	result file (CC BY 4.0)	9403

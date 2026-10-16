@@ -21,26 +21,37 @@ INK = "#333333"
 GREY = "#8C8C8C"
 IDLE = "#EBEBEB"
 
-# One colour per tuner or controller, the same in every figure (Okabe-Ito,
-# colour-vision-deficiency safe).
+# One colour per kind of control, the same meaning in every figure (Okabe-Ito,
+# colour-vision-deficiency safe), each with its own line style or marker so the
+# figures also read in greyscale:
+#   blue   = set by hand and never changed (production indexes, fixed connection splits)
+#   orange = learns from the recent history of queries (history-based tuner, reactive controller)
+#   green  = reads the laboratory plan (plan-aware tuner, self-driving controller)
+#   grey   = no control at all (one shared connection pool; annex figure only)
 ARM_COLOURS = {
-    "production": "#7F7F7F",   # hand-set production configuration (control)
-    "shared": "#7F7F7F",
-    "static": "#0072B2",       # hand-set split
-    "history": "#C17D00",      # learns from past queries (darkened from #E69F00 for WCAG 2.1 AA 3:1 graphics contrast)
+    "production": "#0072B2",
+    "static": "#0072B2",
+    "static51": "#56B4E9",
+    "static33": "#003D66",
+    "history": "#C17D00",      # darkened from #E69F00 for WCAG 2.1 AA 3:1 graphics contrast
     "reactive": "#C17D00",
-    "plan": "#009E73",         # reads the laboratory plan
+    "plan": "#009E73",
     "forecast": "#009E73",
+    "shared": "#8C8C8C",
 }
+ARM_STYLES = {"production": (0, (4, 1.6)), "history": (0, (1, 1.2)), "plan": "-"}
 ARM_NAMES = {
-    "production": "production indexes (hand-set)",
+    "production": "production indexes (set by hand)",
     "history": "history-based tuner",
     "plan": "plan-aware tuner",
-    "shared": "shared pool",
-    "static": "hand-set split",
-    "reactive": "reactive (history)",
-    "forecast": "self-driving (plan + forecast)",
+    "shared": "one shared pool",
+    "static": "fixed split 4:2",
+    "static51": "fixed split 5:1",
+    "static33": "fixed split 3:3",
+    "reactive": "reactive controller (history)",
+    "forecast": "self-driving controller (plan)",
 }
+ARM_MARKERS = {"shared": "X", "static51": "v", "static": "s", "static33": "^", "reactive": "D", "forecast": "o"}
 
 
 def apply_style():

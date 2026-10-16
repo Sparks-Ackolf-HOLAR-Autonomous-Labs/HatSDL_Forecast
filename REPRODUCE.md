@@ -26,15 +26,15 @@ Compare with the committed images, or check the files with `sha256sum -c FILES.s
 
 ```bash
 python -m gym.analyze_aurora       # E1 tables      -> results/aurora/e1a_summary.md (from e1a_run_stats.json)
-python -m gym.analyze_users        # E2, Table 2    -> results/aurora/e2_summary.md
-python -m gym.analyze_capacity     # E2b, Table A3  -> results/aurora/e2b_summary.md
-python -m gym.analyze_national     # E2c, Tables A4-A5 -> results/aurora/e2c_summary.md
-python -m gym.analyze_agents       # E3, Table 3    -> results/aurora_agents/e3_summary.md
-python -m gym.analyze_byo          # E3b, Table 3   -> results/aurora_agents/e3b_summary.md
-python -m gym.analyze_multi results/aurora_multi   # facility-wide question, Table A6 -> results/aurora_multi/e3c_summary.md
-python -m gym.analyze_admission    # E4, Tables A7  -> results/aurora/e4_summary.md
-python -m gym.stats_tests          # paired tests, Holm correction, bootstrap intervals (E1, E2, E4), Table A8 -> results/aurora/stats_tests.md
-python -m gym.analyze_surge        # E4b, Tables A9-A10 -> results/aurora/e4b/summary.md, stats.json
+python -m gym.analyze_users        # E2, Table A3   -> results/aurora/e2_summary.md
+python -m gym.analyze_capacity     # E2b, Table A4  -> results/aurora/e2b_summary.md
+python -m gym.analyze_national     # E2c, Tables A5-A6 -> results/aurora/e2c_summary.md
+python -m gym.analyze_agents       # E3, Table 2    -> results/aurora_agents/e3_summary.md
+python -m gym.analyze_byo          # E3b, Table 2   -> results/aurora_agents/e3b_summary.md
+python -m gym.analyze_multi results/aurora_multi   # facility-wide question, Table A7 -> results/aurora_multi/e3c_summary.md
+python -m gym.analyze_admission    # E4, Table A8   -> results/aurora/e4_summary.md
+python -m gym.stats_tests          # paired tests, Holm correction, bootstrap intervals (E1, E2, E4), Table A9 -> results/aurora/stats_tests.md
+python -m gym.analyze_surge        # E4b, Tables A10-A11 -> results/aurora/e4b/summary.md, stats.json
 ```
 
 The regenerated `.md` files match the committed ones line for line. The raw run files of E1 seeds 4-30

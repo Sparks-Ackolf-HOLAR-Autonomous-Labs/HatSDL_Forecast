@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fig. A1 (E4, annex): admission control on 6 shared connections, 30 seeds.
+"""Fig. A1 (annex): admission control on 6 shared connections with one surge of known size, 30 seeds.
 
 Data: results/aurora/e4_admission_s{1..30}.json (per seed and arm,
 summary values before the surge, during the unannounced script surge and
@@ -19,7 +19,7 @@ import numpy as np
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from paper_fig_style import DCE_FULL, ARM_COLOURS, ARM_NAMES, apply_style, save  # noqa: E402
+from paper_fig_style import DCE_FULL, ARM_COLOURS, ARM_NAMES, ARM_MARKERS, apply_style, save  # noqa: E402
 import matplotlib.pyplot as plt  # noqa: E402
 
 ROOT = HERE.parents[1]
@@ -47,13 +47,13 @@ def main():
             mean = v.mean(axis=0)
             q1, q3 = np.percentile(v, [25, 75], axis=0)
             ax.errorbar(x, mean, yerr=[mean - np.minimum(q1, mean), np.maximum(q3, mean) - mean],
-                        fmt="o", ms=3.2, capsize=1.8, lw=1.0, color=ARM_COLOURS[a],
+                        fmt=ARM_MARKERS[a], ms=4.0, capsize=1.8, lw=1.0, color=ARM_COLOURS[a],
                         label=ARM_NAMES[a] if k == 0 else None)
         ax.set_xticks(range(len(PH)), ["before", "surge", "workshop"])
         ax.set_ylabel(label)
         ax.set_yscale(scale)
         ax.set_title(f"({'abc'[k]})", loc="left", fontsize=9, fontweight="bold")
-    fig.legend(loc="outside upper center", ncol=4)
+    fig.legend(loc="outside upper center", ncol=2)
     save(fig, OUT)
 
 
