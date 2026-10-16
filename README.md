@@ -1,5 +1,7 @@
 # Laboratory plans let a self-driving database prepare for the workload of a two-dimensional materials laboratory network
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23413474.svg)](https://doi.org/10.5281/zenodo.23413474)
+
 Code and data for the paper prepared for Data-Centric Engineering (Cambridge University Press). This folder runs on its own: copy it out, run `git init` inside it, and every figure script runs from the folder root with the packages in `requirements.txt` (the figure scripts need only numpy and matplotlib). `REPRODUCE.md` gives the steps that rebuild every figure, table and test from the files here, and the command, seeds and run time of every experiment.
 
 | Folder | Contents |
