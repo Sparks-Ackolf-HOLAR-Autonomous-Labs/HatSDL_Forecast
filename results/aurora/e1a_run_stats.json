@@ -1,0 +1,5222 @@
+[
+{
+"meta": {
+"arm": "history",
+"seed": 1,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.057,
+"p95": 1.048,
+"p99": 1.701,
+"slow_pct": 0.0067720281377769125,
+"n": 472532,
+"phase_p95": [
+1.84,
+1.711,
+0.185,
+1.687
+],
+"phase_n": [
+16149,
+40514,
+391606,
+24263
+],
+"action_p95": {
+"view": 0.533,
+"detect": 1.865,
+"scan": 1.9636499999999997,
+"review": 0.336,
+"plan": 0.191
+},
+"event": {
+"review": {
+"slow15": 30,
+"ready_s": 10.311000000000007
+},
+"plan": {
+"slow15": 15,
+"ready_s": 10.539999999999992
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 2,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.109,
+"p95": 1.466,
+"p99": 2.181,
+"slow_pct": 0.009425041077470697,
+"n": 318301,
+"phase_p95": [
+2.18,
+2.013,
+0.43,
+2.119
+],
+"phase_n": [
+14673,
+35641,
+245793,
+22194
+],
+"action_p95": {
+"detect": 2.25,
+"view": 0.65,
+"scan": 2.409,
+"review": 0.546,
+"plan": 0.499
+},
+"event": {
+"review": {
+"slow15": 16,
+"ready_s": 9.822000000000003
+},
+"plan": {
+"slow15": 16,
+"ready_s": 10.36099999999999
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 3,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.134,
+"p95": 1.871,
+"p99": 2.643,
+"slow_pct": 0.011561246701058053,
+"n": 250838,
+"phase_p95": [
+2.632,
+2.2509000000000015,
+0.666,
+2.575599999999999
+],
+"phase_n": [
+13900,
+35403,
+181046,
+20489
+],
+"action_p95": {
+"detect": 2.696,
+"scan": 2.955,
+"view": 0.741,
+"review": 0.615,
+"plan": 0.779
+},
+"event": {
+"review": {
+"slow15": 17,
+"ready_s": 10.197999999999993
+},
+"plan": {
+"slow15": 14,
+"ready_s": 9.732
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 4,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.2772808074951172,
+"p95": 2.652391791343689,
+"p99": 3.7654615007340904,
+"slow_pct": 0.014846877301979774,
+"n": 175121,
+"phase_p95": [
+4.810499120503664,
+2.6423260802403075,
+0.8396520512178536,
+3.5364519339054814
+],
+"phase_n": [
+10434,
+29914,
+117294,
+17479
+],
+"action_p95": {
+"detect": 3.743596049025655,
+"view": 0.7297781296074389,
+"scan": 6.144947139546275,
+"review": 0.6232301238924265,
+"plan": 0.9103231132030487
+},
+"event": {
+"review": {
+"slow15": 15,
+"ready_s": 10.512202739715576
+},
+"plan": {
+"slow15": 13,
+"ready_s": 10.991306781768799
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 5,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.17100805416703224,
+"p95": 3.383296355605124,
+"p99": 5.163701828569176,
+"slow_pct": 0.012959889143102098,
+"n": 200619,
+"phase_p95": [
+5.2327027544379225,
+4.622107627801595,
+0.7426964119076728,
+5.208685901015997
+],
+"phase_n": [
+9753,
+24560,
+151233,
+15073
+],
+"action_p95": {
+"detect": 5.457641649991274,
+"view": 0.6637941114604472,
+"scan": 5.571502144448459,
+"review": 0.47332290560007095,
+"plan": 0.8224281482398511
+},
+"event": {
+"review": {
+"slow15": 14,
+"ready_s": 10.32150387763977
+},
+"plan": {
+"slow15": 15,
+"ready_s": 10.702311515808105
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 6,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.157888513058424,
+"p95": 2.909436123445629,
+"p99": 9.824050436727699,
+"slow_pct": 0.011701517686843983,
+"n": 170918,
+"phase_p95": [
+8.794426033273337,
+7.845469634048641,
+0.7103793555870649,
+12.194175389595328
+],
+"phase_n": [
+7232,
+13886,
+140928,
+8872
+],
+"action_p95": {
+"detect": 11.74418767914176,
+"scan": 9.621277544647453,
+"view": 1.0253024753183126,
+"review": 0.7331123575568198,
+"plan": 0.8851889986544844
+},
+"event": {
+"review": {
+"slow15": 11,
+"ready_s": 14.749786138534546
+},
+"plan": {
+"slow15": 7,
+"ready_s": 14.791629314422607
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 7,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.07150485180318356,
+"p95": 1.2846073135733633,
+"p99": 6.119637787342078,
+"slow_pct": 0.00668037595994098,
+"n": 344292,
+"phase_p95": [
+8.948527509346604,
+7.0712584536522565,
+0.24388916790485382,
+5.170342978090048
+],
+"phase_n": [
+7043,
+15679,
+307117,
+14453
+],
+"action_p95": {
+"detect": 8.167811366729438,
+"scan": 9.785740170627832,
+"view": 0.6977052427828313,
+"review": 0.4504930693656206,
+"plan": 0.2661409787833677
+},
+"event": {
+"review": {
+"slow15": 17,
+"ready_s": 14.685718059539795
+},
+"plan": {
+"slow15": 14,
+"ready_s": 10.197964429855347
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 8,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.1361621543765068,
+"p95": 2.157180104404688,
+"p99": 3.2388599589467075,
+"slow_pct": 0.009235059981714581,
+"n": 216566,
+"phase_p95": [
+3.107312717474997,
+3.4784853458404545,
+0.5665504140779374,
+2.8717467794194813
+],
+"phase_n": [
+10996,
+20662,
+169500,
+15408
+],
+"action_p95": {
+"view": 1.0120645165443418,
+"detect": 3.283778321929276,
+"scan": 3.270613378845155,
+"review": 0.6693871226161718,
+"plan": 0.7414319552481174
+},
+"event": {
+"review": {
+"slow15": 25,
+"ready_s": 13.942325592041016
+},
+"plan": {
+"slow15": 6,
+"ready_s": 14.497093200683594
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 9,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.17428933642804623,
+"p95": 2.7681395411491345,
+"p99": 5.369603750295937,
+"slow_pct": 0.010504782440426826,
+"n": 180870,
+"phase_p95": [
+5.140150687657297,
+4.649072559550405,
+0.729584973305465,
+5.869156029075383
+],
+"phase_n": [
+9134,
+18702,
+139929,
+13105
+],
+"action_p95": {
+"detect": 6.02562609128654,
+"view": 1.0756440460681915,
+"scan": 5.666693230159581,
+"review": 0.7203556597232819,
+"plan": 0.9071005973964925
+},
+"event": {
+"review": {
+"slow15": 10,
+"ready_s": 14.464920043945312
+},
+"plan": {
+"slow15": 7,
+"ready_s": 13.539195537567139
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 10,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.14508888125419617,
+"p95": 2.9349242337047974,
+"p99": 6.765609756112099,
+"slow_pct": 0.010442027511994592,
+"n": 181957,
+"phase_p95": [
+5.768667720258233,
+5.866043432615696,
+0.7472255965694753,
+7.695042062550783
+],
+"phase_n": [
+8795,
+15704,
+146010,
+11448
+],
+"action_p95": {
+"detect": 7.763352105394003,
+"scan": 6.527577387169001,
+"view": 1.0145291220396757,
+"review": 0.7631664630025616,
+"plan": 0.9340529795736074
+},
+"event": {
+"review": {
+"slow15": 17,
+"ready_s": 14.693084239959717
+},
+"plan": {
+"slow15": 7,
+"ready_s": 13.517592668533325
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 11,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.12992043048143387,
+"p95": 2.8601856902241654,
+"p99": 8.52760147303343,
+"slow_pct": 0.011080516573682666,
+"n": 180497,
+"phase_p95": [
+10.083787422627198,
+6.4744809875264755,
+0.6693828850984566,
+9.39795901067555
+],
+"phase_n": [
+6830,
+15234,
+148615,
+9818
+],
+"action_p95": {
+"detect": 9.734572377055883,
+"view": 1.0492471978068343,
+"scan": 11.290777241811156,
+"review": 0.7030538981780408,
+"plan": 0.8555639069527388
+},
+"event": {
+"review": {
+"slow15": 8,
+"ready_s": 15.424808263778687
+},
+"plan": {
+"slow15": 7,
+"ready_s": 15.491658926010132
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 12,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.07761595770716667,
+"p95": 1.9629603717476127,
+"p99": 4.745143400505187,
+"slow_pct": 0.00929735257885317,
+"n": 258138,
+"phase_p95": [
+5.230464134365319,
+4.823713097721338,
+0.6042131222784517,
+4.260489158332348
+],
+"phase_n": [
+9773,
+24475,
+208817,
+15073
+],
+"action_p95": {
+"detect": 5.425039166584611,
+"scan": 5.7031483156606555,
+"view": 0.6685207597911355,
+"review": 0.47532981261610985,
+"plan": 0.7305703358724713
+},
+"event": {
+"review": {
+"slow15": 25,
+"ready_s": 9.710213422775269
+},
+"plan": {
+"slow15": 13,
+"ready_s": 10.45771312713623
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 13,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.13825600035488605,
+"p95": 1.5090120723471045,
+"p99": 3.8790848804637776,
+"slow_pct": 0.010117282653529765,
+"n": 256986,
+"phase_p95": [
+5.2693009143695235,
+2.141077560372649,
+0.5530099850147957,
+1.9077064469456668
+],
+"phase_n": [
+9598,
+30924,
+196995,
+19469
+],
+"action_p95": {
+"detect": 3.80116757005453,
+"view": 0.7108711637556552,
+"scan": 5.758767761290072,
+"review": 0.5615615285933008,
+"plan": 0.6793425884097813
+},
+"event": {
+"review": {
+"slow15": 23,
+"ready_s": 10.859657287597656
+},
+"plan": {
+"slow15": 15,
+"ready_s": 11.031818389892578
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 14,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.17584138549864292,
+"p95": 1.7224063165485857,
+"p99": 2.6880212128162375,
+"slow_pct": 0.012971250150559154,
+"n": 215862,
+"phase_p95": [
+2.4146842770278454,
+2.3227561265230174,
+0.7727885385975239,
+2.6304912753403187
+],
+"phase_n": [
+12321,
+31845,
+153220,
+18476
+],
+"action_p95": {
+"detect": 2.6856251060962677,
+"view": 0.7347236387431622,
+"scan": 2.559035550802946,
+"review": 0.6234629778191444,
+"plan": 0.8708609035238619
+},
+"event": {
+"review": {
+"slow15": 18,
+"ready_s": 9.76418948173523
+},
+"plan": {
+"slow15": 14,
+"ready_s": 10.74188494682312
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 15,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.10836776345968246,
+"p95": 1.5769971534609803,
+"p99": 3.46193926408887,
+"slow_pct": 0.007815740902176984,
+"n": 332662,
+"phase_p95": [
+4.430084279738367,
+2.8393137967213926,
+0.24216081947088205,
+3.328743390738964
+],
+"phase_n": [
+10138,
+29232,
+276339,
+16953
+],
+"action_p95": {
+"detect": 3.8009594660252324,
+"scan": 4.7314235009253025,
+"view": 0.6507115438580513,
+"review": 0.4319826140999794,
+"plan": 0.2622267231345174
+},
+"event": {
+"review": {
+"slow15": 18,
+"ready_s": 9.651145458221436
+},
+"plan": {
+"slow15": 13,
+"ready_s": 10.868416786193848
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 16,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.12208009138703346,
+"p95": 1.9090483430773009,
+"p99": 4.462397107854489,
+"slow_pct": 0.00977006527155145,
+"n": 266119,
+"phase_p95": [
+5.061641614884137,
+4.209359921514986,
+0.49268458969891044,
+4.341145325452089
+],
+"phase_n": [
+9837,
+23828,
+217107,
+15347
+],
+"action_p95": {
+"detect": 5.024553509429097,
+"scan": 5.515050701797008,
+"view": 0.6634479388594625,
+"review": 0.524625601246953,
+"plan": 0.600947206839919
+},
+"event": {
+"review": {
+"slow15": 40,
+"ready_s": 9.935527563095093
+},
+"plan": {
+"slow15": 14,
+"ready_s": 11.527143001556396
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 17,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.08476804941892624,
+"p95": 1.4657969586551187,
+"p99": 3.6067171953618464,
+"slow_pct": 0.007811132210146391,
+"n": 371265,
+"phase_p95": [
+3.469462669454513,
+3.1933191232383202,
+0.2252951497212052,
+5.181447369977832
+],
+"phase_n": [
+12834,
+30227,
+311768,
+16436
+],
+"action_p95": {
+"scan": 4.004675894975662,
+"detect": 4.938727430999278,
+"view": 0.6185571663081645,
+"review": 0.4223830532282591,
+"plan": 0.2337940037250516
+},
+"event": {
+"review": {
+"slow15": 21,
+"ready_s": 10.396976470947266
+},
+"plan": {
+"slow15": 15,
+"ready_s": 9.910591125488281
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 18,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.13006478548049927,
+"p95": 1.9001324661076073,
+"p99": 3.4808705188333993,
+"slow_pct": 0.009560500262028525,
+"n": 282412,
+"phase_p95": [
+5.185370310209688,
+2.888459688983857,
+0.4116527270525682,
+3.324849298223853
+],
+"phase_n": [
+10512,
+30330,
+224939,
+16631
+],
+"action_p95": {
+"scan": 6.217024219222365,
+"detect": 3.693330800160765,
+"view": 0.6636114558205,
+"review": 0.45131861697882397,
+"plan": 0.5252566887065763
+},
+"event": {
+"review": {
+"slow15": 21,
+"ready_s": 9.79664921760559
+},
+"plan": {
+"slow15": 13,
+"ready_s": 10.178332328796387
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 19,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.17182528972625732,
+"p95": 3.1740766949951613,
+"p99": 4.89440690726042,
+"slow_pct": 0.013424487259167185,
+"n": 201125,
+"phase_p95": [
+4.900870891287923,
+4.228422138839961,
+0.7315410301089289,
+5.062853801064193
+],
+"phase_n": [
+10063,
+24487,
+152089,
+14486
+],
+"action_p95": {
+"detect": 5.184965441003442,
+"scan": 5.223423801362515,
+"view": 0.6716134026646614,
+"review": 0.4811362596228718,
+"plan": 0.8277295157313347
+},
+"event": {
+"review": {
+"slow15": 16,
+"ready_s": 10.302895069122314
+},
+"plan": {
+"slow15": 15,
+"ready_s": 10.722824573516846
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 20,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.13753585517406464,
+"p95": 2.777230809442699,
+"p99": 9.967785724438725,
+"slow_pct": 0.01069542798599462,
+"n": 177646,
+"phase_p95": [
+8.999483939260243,
+7.547896727919578,
+0.6762417033314705,
+12.434167508035898
+],
+"phase_n": [
+7197,
+15763,
+146141,
+8545
+],
+"action_p95": {
+"scan": 10.016840416938066,
+"detect": 11.881568003445864,
+"view": 1.0262230411171913,
+"review": 0.7169381482526658,
+"plan": 0.8580707944929593
+},
+"event": {
+"review": {
+"slow15": 23,
+"ready_s": 12.82914423942566
+},
+"plan": {
+"slow15": 7,
+"ready_s": 14.944866418838501
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 21,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.12035248801112175,
+"p95": 2.269452577456812,
+"p99": 7.455709548667062,
+"slow_pct": 0.010184246299354851,
+"n": 225839,
+"phase_p95": [
+9.441517898812888,
+7.1554122725501434,
+0.6776078604161738,
+4.913472151383757
+],
+"phase_n": [
+6840,
+16604,
+187373,
+15022
+],
+"action_p95": {
+"detect": 8.529782947152851,
+"view": 0.7715621963143348,
+"scan": 10.263945674523711,
+"review": 0.6038305116817353,
+"plan": 0.7910771993920199
+},
+"event": {
+"review": {
+"slow15": 28,
+"ready_s": 13.6589035987854
+},
+"plan": {
+"slow15": 14,
+"ready_s": 9.988348484039307
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 22,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.17190584912896156,
+"p95": 2.221785113215445,
+"p99": 3.2273368164897027,
+"slow_pct": 0.008992401420799424,
+"n": 200169,
+"phase_p95": [
+3.0516081023961306,
+3.262322652153671,
+0.6165381520986564,
+2.916605398058891
+],
+"phase_n": [
+11146,
+23332,
+149689,
+16002
+],
+"action_p95": {
+"view": 1.0591021273285148,
+"scan": 3.270521410740911,
+"detect": 3.3006127923727036,
+"review": 0.7042517187073825,
+"plan": 0.7739959284663179
+},
+"event": {
+"review": {
+"slow15": 8,
+"ready_s": 11.81618881225586
+},
+"plan": {
+"slow15": 6,
+"ready_s": 14.93285584449768
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 23,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.1562724355608225,
+"p95": 2.860940294340246,
+"p99": 5.395434089004994,
+"slow_pct": 0.01059192115150907,
+"n": 179382,
+"phase_p95": [
+5.256593110971153,
+4.689934663474558,
+0.7505315588787198,
+5.918062292039394
+],
+"phase_n": [
+9146,
+19329,
+138406,
+12501
+],
+"action_p95": {
+"detect": 6.03999188169837,
+"view": 1.121547538787127,
+"scan": 5.853314138948918,
+"review": 0.714179128408432,
+"plan": 0.947045162320137
+},
+"event": {
+"review": {
+"slow15": 11,
+"ready_s": 13.462070226669312
+},
+"plan": {
+"slow15": 7,
+"ready_s": 14.379496335983276
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 24,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.1339050941169262,
+"p95": 2.9111871263012286,
+"p99": 6.7409102944657215,
+"slow_pct": 0.009182637253419182,
+"n": 185132,
+"phase_p95": [
+5.943084368482229,
+6.031965953297912,
+0.7621641270816326,
+7.65239424072206
+],
+"phase_n": [
+8727,
+15990,
+148901,
+11514
+],
+"action_p95": {
+"detect": 7.788069359958172,
+"view": 1.0211323387920856,
+"scan": 6.805794406682252,
+"review": 0.7713992381468407,
+"plan": 0.9542454965412608
+},
+"event": {
+"review": {
+"slow15": 20,
+"ready_s": 14.412972927093506
+},
+"plan": {
+"slow15": 6,
+"ready_s": 14.137012243270874
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 25,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.1402720808982849,
+"p95": 2.8549726586788893,
+"p99": 8.598059155046942,
+"slow_pct": 0.01031045317154966,
+"n": 184279,
+"phase_p95": [
+10.389989241957663,
+6.473171105608343,
+0.6814108695834866,
+9.350785333663223
+],
+"phase_n": [
+6785,
+14934,
+152343,
+10217
+],
+"action_p95": {
+"detect": 9.74792286287993,
+"scan": 11.752228462137278,
+"view": 1.0451552923768754,
+"review": 0.7291589863598343,
+"plan": 0.8459968259558075
+},
+"event": {
+"review": {
+"slow15": 10,
+"ready_s": 14.709765911102295
+},
+"plan": {
+"slow15": 7,
+"ready_s": 13.890490531921387
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 26,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.09899213910102844,
+"p95": 1.6732261283323124,
+"p99": 4.590134210884569,
+"slow_pct": 0.00881630881495246,
+"n": 294908,
+"phase_p95": [
+5.359453544951974,
+4.579801578074694,
+0.4640784114599217,
+4.425547900609672
+],
+"phase_n": [
+9628,
+22765,
+247329,
+15186
+],
+"action_p95": {
+"scan": 5.774984136223793,
+"detect": 5.270650493912399,
+"view": 0.6668589543551201,
+"review": 0.5412017926573753,
+"plan": 0.5612812936305998
+},
+"event": {
+"review": {
+"slow15": 15,
+"ready_s": 10.22267460823059
+},
+"plan": {
+"slow15": 13,
+"ready_s": 9.990398406982422
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 27,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.09842449799180031,
+"p95": 1.5671683941036478,
+"p99": 4.529090216383335,
+"slow_pct": 0.008703166087491686,
+"n": 321722,
+"phase_p95": [
+5.16639824490994,
+4.202656354755162,
+0.27788947336375713,
+4.96686161495745
+],
+"phase_n": [
+9692,
+24493,
+272870,
+14667
+],
+"action_p95": {
+"detect": 5.341478157788514,
+"scan": 5.648649553768336,
+"view": 0.6411701440811163,
+"review": 0.41438946500420565,
+"plan": 0.34883155021816503
+},
+"event": {
+"review": {
+"slow15": 25,
+"ready_s": 10.557313680648804
+},
+"plan": {
+"slow15": 18,
+"ready_s": 10.761697053909302
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 28,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.1094406470656395,
+"p95": 1.3951817527413368,
+"p99": 2.38261460326612,
+"slow_pct": 0.00881375918986357,
+"n": 329031,
+"phase_p95": [
+2.1741423988714814,
+2.347515430301428,
+0.26967776939272864,
+2.599820960313081
+],
+"phase_n": [
+13066,
+31601,
+267085,
+17279
+],
+"action_p95": {
+"detect": 2.57452866062522,
+"scan": 2.297947858460247,
+"view": 0.6806070450693369,
+"review": 0.4398580640554428,
+"plan": 0.340773118659853
+},
+"event": {
+"review": {
+"slow15": 38,
+"ready_s": 10.519722938537598
+},
+"plan": {
+"slow15": 14,
+"ready_s": 10.557161092758179
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 29,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.09095948189496994,
+"p95": 1.886324491351842,
+"p99": 3.3600318990647793,
+"slow_pct": 0.009853822335583289,
+"n": 263857,
+"phase_p95": [
+3.908584290184081,
+2.8422074392437935,
+0.6223323754966253,
+2.98507111147046
+],
+"phase_n": [
+10574,
+28171,
+207052,
+18060
+],
+"action_p95": {
+"detect": 3.407609765417874,
+"scan": 4.200134472921491,
+"view": 0.684955809265375,
+"review": 0.5430565448477838,
+"plan": 0.7408971898257729
+},
+"event": {
+"review": {
+"slow15": 23,
+"ready_s": 9.850860357284546
+},
+"plan": {
+"slow15": 13,
+"ready_s": 10.355799674987793
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "history",
+"seed": 30,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_classification_ai_idx",
+"crystallite_image_path_idx",
+"ix_monolayer_area",
+"ix_review_queue"
+]
+},
+"median": 0.13499241322278976,
+"p95": 2.220057067461312,
+"p99": 4.3616584502160585,
+"slow_pct": 0.010526049868213856,
+"n": 237506,
+"phase_p95": [
+4.760421905666591,
+3.8120959885418384,
+0.5796027835458518,
+4.277181392535566
+],
+"phase_n": [
+9989,
+25348,
+186639,
+15530
+],
+"action_p95": {
+"scan": 5.288954800926149,
+"detect": 4.714518506079911,
+"view": 0.698043475858867,
+"review": 0.5488344933837643,
+"plan": 0.7147862575948238
+},
+"event": {
+"review": {
+"slow15": 35,
+"ready_s": 10.102304458618164
+},
+"plan": {
+"slow15": 13,
+"ready_s": 10.824870109558105
+}
+},
+"builds": 3,
+"drops": 12
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 1,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.058,
+"p95": 1.042,
+"p99": 1.75,
+"slow_pct": 0.0007034649164459545,
+"n": 568614,
+"phase_p95": [
+1.90825,
+1.675,
+0.19,
+1.9828999999999979
+],
+"phase_n": [
+16076,
+52170,
+477665,
+22703
+],
+"action_p95": {
+"view": 0.549,
+"detect": 2.032,
+"scan": 2.093,
+"review": 0.332,
+"plan": 0.195
+},
+"event": {
+"review": {
+"slow15": 4,
+"ready_s": 0.33199999999999363
+},
+"plan": {
+"slow15": 4,
+"ready_s": 0.19300000000001205
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 2,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.104,
+"p95": 1.259,
+"p99": 2.103,
+"slow_pct": 0.000630048261696846,
+"n": 476154,
+"phase_p95": [
+2.406,
+1.9690999999999985,
+0.204,
+2.169
+],
+"phase_n": [
+14203,
+47999,
+391737,
+22215
+],
+"action_p95": {
+"detect": 2.310949999999997,
+"view": 0.561,
+"scan": 2.74,
+"review": 0.345,
+"plan": 0.211
+},
+"event": {
+"review": {
+"slow15": 10,
+"ready_s": 0.21599999999999397
+},
+"plan": {
+"slow15": 4,
+"ready_s": 0.12399999999999523
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 3,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.056,
+"p95": 1.039,
+"p99": 2.306,
+"slow_pct": 0.0004966566728307278,
+"n": 604039,
+"phase_p95": [
+2.813,
+2.293,
+0.184,
+2.471
+],
+"phase_n": [
+13366,
+44560,
+525108,
+21005
+],
+"action_p95": {
+"detect": 2.704,
+"scan": 3.214,
+"view": 0.536,
+"review": 0.314,
+"plan": 0.189
+},
+"event": {
+"review": {
+"slow15": 11,
+"ready_s": 0.284000000000006
+},
+"plan": {
+"slow15": 4,
+"ready_s": 0.18999999999999773
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 4,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.1421452034264803,
+"p95": 1.581608178094025,
+"p99": 3.449036730453373,
+"slow_pct": 0.0005761397484573858,
+"n": 347138,
+"phase_p95": [
+4.13089154753834,
+2.969860797747969,
+0.39083170704543535,
+2.8124803211539984
+],
+"phase_n": [
+10938,
+39762,
+278003,
+18435
+],
+"action_p95": {
+"detect": 3.717904910445213,
+"view": 0.6367422407492995,
+"scan": 4.387184767983854,
+"review": 0.43529728427529335,
+"plan": 0.4951633978635069
+},
+"event": {
+"review": {
+"slow15": 12,
+"ready_s": 0.13871526718139648
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.17276787757873535
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 5,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.11599995195865631,
+"p95": 1.403831411153074,
+"p99": 3.6174913309514407,
+"slow_pct": 0.0005078423555759821,
+"n": 393823,
+"phase_p95": [
+4.405044275335967,
+3.5606259712949404,
+0.27653318829834445,
+3.3136668382212497
+],
+"phase_n": [
+10762,
+36658,
+327715,
+18688
+],
+"action_p95": {
+"detect": 4.39115227200091,
+"view": 0.5946356803178787,
+"scan": 4.887355118989943,
+"review": 0.4324835259467362,
+"plan": 0.3564965445548296
+},
+"event": {
+"review": {
+"slow15": 10,
+"ready_s": 0.18459725379943848
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.13265681266784668
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 6,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.13345619663596153,
+"p95": 1.9820689223706713,
+"p99": 9.573887549340752,
+"slow_pct": 0.002316378727922015,
+"n": 259025,
+"phase_p95": [
+9.318125247955319,
+8.332450385205453,
+0.6875214166939259,
+12.636020849458873
+],
+"phase_n": [
+7128,
+21942,
+221551,
+8404
+],
+"action_p95": {
+"detect": 12.088274117559195,
+"scan": 10.206583002582189,
+"view": 0.948611181229353,
+"review": 0.6458672462031242,
+"plan": 0.8744452148675919
+},
+"event": {
+"review": {
+"slow15": 41,
+"ready_s": 0.31250643730163574
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.135406494140625
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 7,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.07748836651444435,
+"p95": 1.0039890650659795,
+"p99": 4.4006292149424535,
+"slow_pct": 0.0006457473233773447,
+"n": 464578,
+"phase_p95": [
+6.022712588310239,
+3.8380926474928856,
+0.23291297256946564,
+4.764648433774709
+],
+"phase_n": [
+9355,
+35209,
+404125,
+15889
+],
+"action_p95": {
+"detect": 5.518322112038732,
+"scan": 6.6803899593651295,
+"view": 0.5631081759929654,
+"review": 0.3815844189375636,
+"plan": 0.24491315707564354
+},
+"event": {
+"review": {
+"slow15": 25,
+"ready_s": 0.09531140327453613
+},
+"plan": {
+"slow15": 4,
+"ready_s": 0.10230398178100586
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 8,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.18233759328722954,
+"p95": 2.0099384244531344,
+"p99": 3.548980532214037,
+"slow_pct": 0.0024263599747658565,
+"n": 247284,
+"phase_p95": [
+3.6199298920109872,
+3.6320697981864214,
+0.8091844152659176,
+2.5828152662143116
+],
+"phase_n": [
+10744,
+31751,
+185647,
+19142
+],
+"action_p95": {
+"view": 0.9446474723517895,
+"detect": 3.7450416944921012,
+"scan": 3.9806951768696304,
+"review": 0.6630675867199899,
+"plan": 0.9729877347126603
+},
+"event": {
+"review": {
+"slow15": 51,
+"ready_s": 0.3401329517364502
+},
+"plan": {
+"slow15": 4,
+"ready_s": 0.14238548278808594
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 9,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.13016071170568466,
+"p95": 2.096277754753828,
+"p99": 5.555463843047619,
+"slow_pct": 0.00214788165172099,
+"n": 279345,
+"phase_p95": [
+4.770670086145401,
+4.086854867637156,
+0.700149359181523,
+7.231213548220694
+],
+"phase_n": [
+10071,
+30385,
+227259,
+11630
+],
+"action_p95": {
+"detect": 6.893800757825375,
+"view": 0.9458510670810937,
+"scan": 5.282496567815542,
+"review": 0.6191548891365528,
+"plan": 0.8786880876868961
+},
+"event": {
+"review": {
+"slow15": 40,
+"ready_s": 0.2602269649505615
+},
+"plan": {
+"slow15": 2,
+"ready_s": 0.16545867919921875
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 10,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.13555306941270828,
+"p95": 2.3325590416788975,
+"p99": 7.029565256088978,
+"slow_pct": 0.0023422037795361654,
+"n": 256169,
+"phase_p95": [
+6.463473383337259,
+5.025397334247825,
+0.7489692652598015,
+9.50919948518276
+],
+"phase_n": [
+8382,
+26938,
+210892,
+9957
+],
+"action_p95": {
+"detect": 9.006275469437238,
+"scan": 7.339463103562593,
+"view": 1.0479351738467813,
+"review": 0.6712397793307904,
+"plan": 0.902302283793687
+},
+"event": {
+"review": {
+"slow15": 57,
+"ready_s": 0.12345123291015625
+},
+"plan": {
+"slow15": 5,
+"ready_s": 0.1428055763244629
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 11,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.1020641066133976,
+"p95": 1.1716879904270165,
+"p99": 4.053871929645564,
+"slow_pct": 0.0006868053250306201,
+"n": 436805,
+"phase_p95": [
+5.532294232398272,
+3.383601480163632,
+0.24044930469244719,
+4.27879998460412
+],
+"phase_n": [
+9872,
+37094,
+373842,
+15997
+],
+"action_p95": {
+"detect": 4.755396745167673,
+"view": 0.5958708934485912,
+"scan": 5.961344204843045,
+"review": 0.3947874065488578,
+"plan": 0.2644972410053015
+},
+"event": {
+"review": {
+"slow15": 29,
+"ready_s": 0.3021833896636963
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.11142134666442871
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 12,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.07692864164710045,
+"p95": 1.1450289748609026,
+"p99": 4.413085915148259,
+"slow_pct": 0.0006821080777512261,
+"n": 439813,
+"phase_p95": [
+5.7512558065354815,
+4.206745349802079,
+0.24763401597738266,
+4.382957494817673
+],
+"phase_n": [
+9265,
+35148,
+380232,
+15168
+],
+"action_p95": {
+"detect": 5.343904136680067,
+"scan": 6.204299256205559,
+"view": 0.6119946949183929,
+"review": 0.4094265401363373,
+"plan": 0.26733488775789627
+},
+"event": {
+"review": {
+"slow15": 18,
+"ready_s": 0.05999040603637695
+},
+"plan": {
+"slow15": 1,
+"ready_s": 0.084869384765625
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 13,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.08524814620614052,
+"p95": 1.118204370141029,
+"p99": 2.063993085175746,
+"slow_pct": 0.0006447827404556035,
+"n": 465273,
+"phase_p95": [
+2.218828210607171,
+1.8844962352886792,
+0.24067899212241062,
+2.3089779540896416
+],
+"phase_n": [
+12918,
+44304,
+389398,
+18653
+],
+"action_p95": {
+"detect": 2.3235305212438107,
+"view": 0.6256288383156058,
+"scan": 2.295436104759574,
+"review": 0.405362481251359,
+"plan": 0.25988928973674774
+},
+"event": {
+"review": {
+"slow15": 12,
+"ready_s": 0.38887834548950195
+},
+"plan": {
+"slow15": 4,
+"ready_s": 0.14272403717041016
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 14,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.05804793909192085,
+"p95": 1.0376687860116363,
+"p99": 2.3587513249367507,
+"slow_pct": 0.000554994394556615,
+"n": 540546,
+"phase_p95": [
+2.3832368664443493,
+2.207569405436516,
+0.2200007438659668,
+3.2753603998571634
+],
+"phase_n": [
+12493,
+40505,
+470261,
+17287
+],
+"action_p95": {
+"detect": 3.122937586158514,
+"view": 0.5929531762376422,
+"scan": 2.600072231143713,
+"review": 0.3998238360509271,
+"plan": 0.22724862210452554
+},
+"event": {
+"review": {
+"slow15": 22,
+"ready_s": 0.25222086906433105
+},
+"plan": {
+"slow15": 4,
+"ready_s": 0.10569024085998535
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 15,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.05843210965394974,
+"p95": 0.8846921380609207,
+"p99": 3.42766952700913,
+"slow_pct": 0.0003827846434456743,
+"n": 522487,
+"phase_p95": [
+4.876807192340493,
+3.1641129869967695,
+0.21326402202248573,
+3.8884693291038257
+],
+"phase_n": [
+10078,
+34787,
+461568,
+16054
+],
+"action_p95": {
+"detect": 4.397346801124512,
+"scan": 5.345599097199738,
+"view": 0.5719407228752968,
+"review": 0.39814701303839656,
+"plan": 0.2216799184679985
+},
+"event": {
+"review": {
+"slow15": 52,
+"ready_s": 0.3668828010559082
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.18076062202453613
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 16,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.11508772149682045,
+"p95": 1.3933321461081505,
+"p99": 4.342881310731179,
+"slow_pct": 0.0005335310955260751,
+"n": 374861,
+"phase_p95": [
+5.393628519959747,
+4.135818220674992,
+0.32116840593516827,
+4.367571137845514
+],
+"phase_n": [
+9538,
+32151,
+316795,
+16377
+],
+"action_p95": {
+"detect": 5.190397729165852,
+"scan": 5.9533872175961715,
+"view": 0.6030058953911066,
+"review": 0.43066651560366115,
+"plan": 0.4096800228580839
+},
+"event": {
+"review": {
+"slow15": 23,
+"ready_s": 0.30773496627807617
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.182542085647583
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 17,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.11052796617150307,
+"p95": 1.168234273791312,
+"p99": 2.833417747169719,
+"slow_pct": 0.0004661689536138583,
+"n": 429029,
+"phase_p95": [
+3.624900057911866,
+3.049014206044372,
+0.2362294355407354,
+1.5938133001327515
+],
+"phase_n": [
+12299,
+39740,
+352494,
+24496
+],
+"action_p95": {
+"scan": 4.2192169232293955,
+"detect": 3.4692890476435423,
+"view": 0.598572194576263,
+"review": 0.4225109703838825,
+"plan": 0.25315764360129794
+},
+"event": {
+"review": {
+"slow15": 6,
+"ready_s": 0.29709744453430176
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.09832262992858887
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 18,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.12063956819474697,
+"p95": 1.5222973888739932,
+"p99": 3.394250725395979,
+"slow_pct": 0.0005459260270233384,
+"n": 366350,
+"phase_p95": [
+3.923556138761341,
+3.056764136999845,
+0.394470104947686,
+3.140368126332759
+],
+"phase_n": [
+10930,
+40797,
+297535,
+17088
+],
+"action_p95": {
+"scan": 4.1725123301148415,
+"detect": 3.715023328550159,
+"view": 0.6250148639082909,
+"review": 0.4284913185983895,
+"plan": 0.5079092457890508
+},
+"event": {
+"review": {
+"slow15": 21,
+"ready_s": 0.38613295555114746
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.14400768280029297
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 19,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.10594446212053299,
+"p95": 1.276095979847014,
+"p99": 3.575349017046393,
+"slow_pct": 0.00046673792198942366,
+"n": 428506,
+"phase_p95": [
+4.443217371590433,
+3.7351134233176686,
+0.2472911961376669,
+3.1647374853491783
+],
+"phase_n": [
+10732,
+35117,
+365027,
+17630
+],
+"action_p95": {
+"detect": 4.3141513131558895,
+"scan": 4.850743804126978,
+"view": 0.5831850226968527,
+"review": 0.42600161395967007,
+"plan": 0.282738544046878
+},
+"event": {
+"review": {
+"slow15": 23,
+"ready_s": 0.30870866775512695
+},
+"plan": {
+"slow15": 2,
+"ready_s": 0.11627316474914551
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 20,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.13787276111543179,
+"p95": 2.0275392103940244,
+"p99": 9.891806109808384,
+"slow_pct": 0.001984583753403561,
+"n": 251942,
+"phase_p95": [
+9.599029365926981,
+8.245744043961167,
+0.6995747331529845,
+13.13792117871344
+],
+"phase_n": [
+6989,
+23046,
+213799,
+8108
+],
+"action_p95": {
+"scan": 10.672080144286156,
+"detect": 12.49010250903666,
+"view": 0.9638668503612278,
+"review": 0.6119097582995892,
+"plan": 0.8706053020432588
+},
+"event": {
+"review": {
+"slow15": 20,
+"ready_s": 0.406705379486084
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.1401987075805664
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 21,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.11249678209424019,
+"p95": 1.2765507213771337,
+"p99": 4.542417572811246,
+"slow_pct": 0.0004915272981973236,
+"n": 406895,
+"phase_p95": [
+6.064216047525408,
+3.571072290651501,
+0.2519830130040647,
+4.777851048856974
+],
+"phase_n": [
+9194,
+36418,
+345722,
+15561
+],
+"action_p95": {
+"detect": 5.452256090939045,
+"view": 0.5883116275072097,
+"scan": 6.558983959257603,
+"review": 0.3962409682571888,
+"plan": 0.28030527755618095
+},
+"event": {
+"review": {
+"slow15": 21,
+"ready_s": 0.173539400100708
+},
+"plan": {
+"slow15": 5,
+"ready_s": 0.09441924095153809
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 22,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.13768114149570465,
+"p95": 1.9383565289899662,
+"p99": 3.5056756716221185,
+"slow_pct": 0.0021483969378182314,
+"n": 279278,
+"phase_p95": [
+3.744116052985191,
+3.679754212498665,
+0.6950614042580128,
+2.675387822091579
+],
+"phase_n": [
+10285,
+31607,
+218706,
+18680
+],
+"action_p95": {
+"view": 0.9279575897380711,
+"scan": 4.090091097168621,
+"detect": 3.8532771170139313,
+"review": 0.6404175190255044,
+"plan": 0.8887654170393938
+},
+"event": {
+"review": {
+"slow15": 53,
+"ready_s": 0.20217633247375488
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.16999220848083496
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 23,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.1427680253982544,
+"p95": 2.111282618716357,
+"p99": 5.7400952465832225,
+"slow_pct": 0.002192021043402017,
+"n": 273720,
+"phase_p95": [
+5.122690647840499,
+3.8095214171335097,
+0.6777150556445122,
+7.300570840016004
+],
+"phase_n": [
+9723,
+30924,
+221661,
+11412
+],
+"action_p95": {
+"detect": 6.961245089769364,
+"view": 0.9685199707746505,
+"scan": 5.761627107858658,
+"review": 0.6261460017412901,
+"plan": 0.8427791763097048
+},
+"event": {
+"review": {
+"slow15": 22,
+"ready_s": 0.2504580020904541
+},
+"plan": {
+"slow15": 2,
+"ready_s": 0.16347408294677734
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 24,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.12647965922951698,
+"p95": 2.1791485836729403,
+"p99": 7.000021478161214,
+"slow_pct": 0.002197238803237265,
+"n": 273070,
+"phase_p95": [
+6.533689564093947,
+5.139047536067665,
+0.6877206498757003,
+9.77126136422157
+],
+"phase_n": [
+8251,
+26534,
+228708,
+9577
+],
+"action_p95": {
+"detect": 9.129148675128816,
+"view": 0.9765028487890953,
+"scan": 7.297575008124113,
+"review": 0.650085578672588,
+"plan": 0.8734483271837234
+},
+"event": {
+"review": {
+"slow15": 47,
+"ready_s": 0.37219882011413574
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.1651167869567871
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 25,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.05790498107671738,
+"p95": 0.8868349017575383,
+"p99": 3.714008196257058,
+"slow_pct": 0.0005662385902924056,
+"n": 529812,
+"phase_p95": [
+5.25120124220848,
+3.2523767091333866,
+0.21515889093279805,
+4.195217974483967
+],
+"phase_n": [
+10105,
+36788,
+466814,
+16105
+],
+"action_p95": {
+"detect": 4.556388850323855,
+"scan": 5.729916854761541,
+"view": 0.5632427986711263,
+"review": 0.3856962313875553,
+"plan": 0.22616097703576088
+},
+"event": {
+"review": {
+"slow15": 23,
+"ready_s": 0.09880447387695312
+},
+"plan": {
+"slow15": 5,
+"ready_s": 0.13695740699768066
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 26,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.05894433706998825,
+"p95": 0.9138198569416989,
+"p99": 4.115057978779076,
+"slow_pct": 0.0005899960273600825,
+"n": 508478,
+"phase_p95": [
+5.456378124654292,
+3.986557177267968,
+0.22217759396880865,
+4.446046194061635
+],
+"phase_n": [
+9653,
+35524,
+447886,
+15415
+],
+"action_p95": {
+"scan": 5.984628619626164,
+"detect": 5.173534736968577,
+"view": 0.5755528807640068,
+"review": 0.3939405782148238,
+"plan": 0.2298802137374877
+},
+"event": {
+"review": {
+"slow15": 16,
+"ready_s": 0.0720062255859375
+},
+"plan": {
+"slow15": 5,
+"ready_s": 0.1606450080871582
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 27,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.0723050907254219,
+"p95": 1.059829001314938,
+"p99": 1.887766136787832,
+"slow_pct": 0.0006249583361109259,
+"n": 480032,
+"phase_p95": [
+1.9950706046074622,
+1.937670400366187,
+0.2316457219421862,
+2.019293326884508
+],
+"phase_n": [
+13592,
+42483,
+404105,
+19852
+],
+"action_p95": {
+"detect": 2.109827008098364,
+"scan": 1.9966945983469482,
+"view": 0.6227939389646052,
+"review": 0.4024788038805116,
+"plan": 0.24531553499400607
+},
+"event": {
+"review": {
+"slow15": 19,
+"ready_s": 0.14494609832763672
+},
+"plan": {
+"slow15": 5,
+"ready_s": 0.20425820350646973
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 28,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.06385613232851028,
+"p95": 1.1390507221221902,
+"p99": 2.341575128957625,
+"slow_pct": 0.0006049704371113065,
+"n": 495892,
+"phase_p95": [
+2.2886060178279877,
+2.29056472890079,
+0.22836914286017418,
+2.9317750595510006
+],
+"phase_n": [
+12837,
+40243,
+425681,
+17131
+],
+"action_p95": {
+"detect": 2.8391579631716013,
+"scan": 2.478131907992065,
+"view": 0.6102177314460276,
+"review": 0.4054804332554339,
+"plan": 0.2371807349845767
+},
+"event": {
+"review": {
+"slow15": 34,
+"ready_s": 0.38508152961730957
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.11761474609375
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 29,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.09979214519262314,
+"p95": 1.2828847393393517,
+"p99": 3.382747690193353,
+"slow_pct": 0.0006918085258482725,
+"n": 433646,
+"phase_p95": [
+4.414317896589637,
+3.1055462080985308,
+0.24571572430431843,
+3.537346376106143
+],
+"phase_n": [
+10676,
+34863,
+371336,
+16771
+],
+"action_p95": {
+"detect": 3.998020943254232,
+"scan": 4.784045903943478,
+"view": 0.6062808679416776,
+"review": 0.4117120988667011,
+"plan": 0.282508973032235
+},
+"event": {
+"review": {
+"slow15": 40,
+"ready_s": 0.3193690776824951
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.1835014820098877
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "plan",
+"seed": 30,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_image_path_idx"
+]
+},
+"median": 0.1235203817486763,
+"p95": 1.4318586327135563,
+"p99": 4.149747733026744,
+"slow_pct": 0.0005473738371727046,
+"n": 365381,
+"phase_p95": [
+4.900524672120809,
+3.919696435332298,
+0.34986999817192443,
+4.212702717632054
+],
+"phase_n": [
+10040,
+34105,
+304883,
+16353
+],
+"action_p95": {
+"scan": 5.439487099647522,
+"detect": 4.777147900313139,
+"view": 0.6245415192097427,
+"review": 0.4345448687672615,
+"plan": 0.4485934041440487
+},
+"event": {
+"review": {
+"slow15": 14,
+"ready_s": 0.15285038948059082
+},
+"plan": {
+"slow15": 3,
+"ready_s": 0.16312217712402344
+}
+},
+"builds": 3,
+"drops": 15
+},
+{
+"meta": {
+"arm": "production",
+"seed": 1,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.142,
+"p95": 9.577,
+"p99": 18.29076000000001,
+"slow_pct": 0.0,
+"n": 52357,
+"phase_p95": [
+1.853,
+11.549,
+27.5248,
+1.702
+],
+"phase_n": [
+15900,
+6990,
+5733,
+23734
+],
+"action_p95": {
+"view": 0.8913499999999985,
+"detect": 1.974199999999997,
+"scan": 1.734,
+"review": 12.2174,
+"plan": 28.1057
+},
+"event": {
+"review": {
+"slow15": 1492,
+"ready_s": null
+},
+"plan": {
+"slow15": 603,
+"ready_s": 2.0360000000000014
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 2,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.488,
+"p95": 7.105449999999998,
+"p99": 18.274830000000016,
+"slow_pct": 0.001899984800121599,
+"n": 52632,
+"phase_p95": [
+2.226,
+7.284,
+27.86065,
+1.983
+],
+"phase_n": [
+14134,
+10466,
+6070,
+21962
+],
+"action_p95": {
+"detect": 2.315,
+"view": 0.896,
+"scan": 2.3579,
+"review": 7.855,
+"plan": 28.97255
+},
+"event": {
+"review": {
+"slow15": 1341,
+"ready_s": null
+},
+"plan": {
+"slow15": 646,
+"ready_s": 6.625
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 3,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.658,
+"p95": 9.425,
+"p99": 20.53148000000004,
+"slow_pct": 0.0,
+"n": 46529,
+"phase_p95": [
+2.6555499999999994,
+10.613,
+28.018,
+2.427
+],
+"phase_n": [
+13150,
+7621,
+5467,
+20291
+],
+"action_p95": {
+"detect": 2.884,
+"scan": 2.9643999999999995,
+"view": 0.9375,
+"review": 11.320949999999995,
+"plan": 29.369
+},
+"event": {
+"review": {
+"slow15": 1246,
+"ready_s": null
+},
+"plan": {
+"slow15": 594,
+"ready_s": 1.8930000000000007
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 4,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.6162930987775326,
+"p95": 7.903857412748033,
+"p99": 30.02311585005378,
+"slow_pct": 0.4343561720610901,
+"n": 42822,
+"phase_p95": [
+2.0993101876229043,
+8.33237997721881,
+51.4515349641442,
+2.8259572573006153
+],
+"phase_n": [
+12799,
+9184,
+3373,
+17466
+],
+"action_p95": {
+"detect": 2.869051042944192,
+"view": 0.8680480532348154,
+"scan": 2.104103192687034,
+"review": 8.77344785258174,
+"plan": 57.10715055465698
+},
+"event": {
+"review": {
+"slow15": 1334,
+"ready_s": null
+},
+"plan": {
+"slow15": 524,
+"ready_s": 3.2055115699768066
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 5,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.079877071082592,
+"p95": 12.78888361994177,
+"p99": 52.838911302387565,
+"slow_pct": 1.057292607988433,
+"n": 33198,
+"phase_p95": [
+4.8091821372509,
+17.283294349908825,
+72.10115762427449,
+4.643220850266514
+],
+"phase_n": [
+9781,
+5394,
+2471,
+15552
+],
+"action_p95": {
+"detect": 4.8040257301181555,
+"view": 0.8041937835514545,
+"scan": 5.107814958319068,
+"review": 19.01398722548037,
+"plan": 75.37609180435538
+},
+"event": {
+"review": {
+"slow15": 1153,
+"ready_s": null
+},
+"plan": {
+"slow15": 339,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 6,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.6054633781313896,
+"p95": 13.502204790711403,
+"p99": 54.17564953677356,
+"slow_pct": 1.0179234361901721,
+"n": 25051,
+"phase_p95": [
+9.027249040082094,
+16.302319383248683,
+198.30721011385322,
+7.63019546866417
+],
+"phase_n": [
+8363,
+4563,
+681,
+11444
+],
+"action_p95": {
+"detect": 8.996281307190653,
+"scan": 10.081141162663698,
+"view": 1.2645029928535223,
+"review": 17.334470059722662,
+"plan": 199.661560729146
+},
+"event": {
+"review": {
+"slow15": 966,
+"ready_s": null
+},
+"plan": {
+"slow15": 127,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 7,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 3.1919358298182487,
+"p95": 17.909459932707254,
+"p99": 72.02571649570032,
+"slow_pct": 1.2125953451985134,
+"n": 20452,
+"phase_p95": [
+9.728429280221462,
+21.577969775535166,
+160.61371583491544,
+12.11637882515788
+],
+"phase_n": [
+6542,
+3996,
+1169,
+8745
+],
+"action_p95": {
+"detect": 12.301467172801495,
+"scan": 10.40535410866141,
+"view": 1.3527721166610718,
+"review": 31.07760725542901,
+"plan": 180.24201868101952
+},
+"event": {
+"review": {
+"slow15": 975,
+"ready_s": null
+},
+"plan": {
+"slow15": 214,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 8,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.3373964466154575,
+"p95": 15.525819687172755,
+"p99": 50.14993918128309,
+"slow_pct": 1.003888689704625,
+"n": 36259,
+"phase_p95": [
+2.7585864067077637,
+24.142478709109117,
+85.78704760875549,
+2.527385600842535
+],
+"phase_n": [
+12383,
+3778,
+1478,
+18620
+],
+"action_p95": {
+"view": 1.0883333394303918,
+"detect": 2.959628589451313,
+"scan": 2.430749149061739,
+"review": 29.496462177485217,
+"plan": 114.65148446150093
+},
+"event": {
+"review": {
+"slow15": 1044,
+"ready_s": null
+},
+"plan": {
+"slow15": 262,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 9,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.359229139983654,
+"p95": 14.944120217114687,
+"p99": 52.51654853113004,
+"slow_pct": 1.0130001688333616,
+"n": 29615,
+"phase_p95": [
+4.769679973833263,
+18.498925212770697,
+125.55390899069607,
+3.415759839117527
+],
+"phase_n": [
+8998,
+4308,
+1496,
+14813
+],
+"action_p95": {
+"detect": 4.627388436347246,
+"view": 1.2376744300127023,
+"scan": 5.16320881433785,
+"review": 20.097577036358402,
+"plan": 152.83487676642835
+},
+"event": {
+"review": {
+"slow15": 882,
+"ready_s": null
+},
+"plan": {
+"slow15": 278,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 10,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.895844401791692,
+"p95": 15.531220706179734,
+"p99": 63.8339472422357,
+"slow_pct": 1.091614781272742,
+"n": 24734,
+"phase_p95": [
+6.487454613670704,
+19.513808889314532,
+151.86873916536558,
+7.9313522670418
+],
+"phase_n": [
+8120,
+4216,
+1363,
+11035
+],
+"action_p95": {
+"detect": 8.29295176081359,
+"scan": 7.2432877961546165,
+"view": 1.3687770115211582,
+"review": 21.29051578231156,
+"plan": 197.554064542055
+},
+"event": {
+"review": {
+"slow15": 920,
+"ready_s": null
+},
+"plan": {
+"slow15": 266,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 11,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 3.1456472352147102,
+"p95": 16.14884294103831,
+"p99": 74.94770942721519,
+"slow_pct": 1.16227486469701,
+"n": 22542,
+"phase_p95": [
+7.880925945937633,
+18.44801967963576,
+142.85843940451738,
+9.935082402080297
+],
+"phase_n": [
+7649,
+4092,
+1448,
+9353
+],
+"action_p95": {
+"detect": 10.266467556357386,
+"view": 1.3956454815343022,
+"scan": 8.689022599719465,
+"review": 19.99484356492757,
+"plan": 158.58771959319702
+},
+"event": {
+"review": {
+"slow15": 834,
+"ready_s": null
+},
+"plan": {
+"slow15": 268,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 12,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.3458111099898815,
+"p95": 8.858950529247524,
+"p99": 28.684039907529947,
+"slow_pct": 0.05327934359848687,
+"n": 37538,
+"phase_p95": [
+6.159842340275644,
+8.924548653885722,
+30.56512516923248,
+4.684117413125932
+],
+"phase_n": [
+8815,
+8603,
+4952,
+15168
+],
+"action_p95": {
+"detect": 5.473870155401528,
+"scan": 6.58259531483054,
+"view": 0.8866086602211001,
+"review": 9.303610725328326,
+"plan": 35.170503240078624
+},
+"event": {
+"review": {
+"slow15": 1199,
+"ready_s": null
+},
+"plan": {
+"slow15": 551,
+"ready_s": 3.784730911254883
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 13,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.1665249951183796,
+"p95": 8.575059194117786,
+"p99": 34.03768437448897,
+"slow_pct": 0.6191348770059415,
+"n": 36018,
+"phase_p95": [
+5.340594332665205,
+8.697353349998593,
+59.87459463067353,
+4.418302117846906
+],
+"phase_n": [
+9321,
+8470,
+2839,
+15388
+],
+"action_p95": {
+"detect": 5.038158292882144,
+"view": 0.8588277734816074,
+"scan": 5.917314346879721,
+"review": 9.137445036321878,
+"plan": 67.22855102270842
+},
+"event": {
+"review": {
+"slow15": 1273,
+"ready_s": null
+},
+"plan": {
+"slow15": 446,
+"ready_s": 12.044009447097778
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 14,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.5985991340130568,
+"p95": 8.281962526962138,
+"p99": 28.91834719572217,
+"slow_pct": 0.2954971857410882,
+"n": 42640,
+"phase_p95": [
+2.2336343536153436,
+8.4808953339234,
+42.45431360322976,
+2.601520740427077
+],
+"phase_n": [
+12196,
+9160,
+3438,
+17846
+],
+"action_p95": {
+"detect": 2.7215975336730485,
+"view": 0.8915882091969249,
+"scan": 2.1217037923634052,
+"review": 8.966742176562548,
+"plan": 54.850316140800714
+},
+"event": {
+"review": {
+"slow15": 1304,
+"ready_s": null
+},
+"plan": {
+"slow15": 585,
+"ready_s": 4.466113567352295
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 15,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.9354792311787605,
+"p95": 8.382999338209629,
+"p99": 28.824721174314583,
+"slow_pct": 0.21359560887166876,
+"n": 40263,
+"phase_p95": [
+2.9613247606903315,
+8.29390506260097,
+35.687457700259955,
+3.5500063095241785
+],
+"phase_n": [
+10859,
+9231,
+4002,
+16171
+],
+"action_p95": {
+"detect": 3.626820677891374,
+"scan": 3.31946404185146,
+"view": 0.8973203599452974,
+"review": 8.842655108310282,
+"plan": 44.7371212299913
+},
+"event": {
+"review": {
+"slow15": 1315,
+"ready_s": null
+},
+"plan": {
+"slow15": 569,
+"ready_s": 1.2303500175476074
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 16,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.3030589800328016,
+"p95": 9.17340908199548,
+"p99": 28.87527564074844,
+"slow_pct": 0.14949714596357705,
+"n": 36790,
+"phase_p95": [
+4.948509624227881,
+8.314641914330423,
+32.94111853465438,
+4.231918486766517
+],
+"phase_n": [
+9471,
+8814,
+3669,
+14836
+],
+"action_p95": {
+"detect": 4.776783776469528,
+"scan": 5.454256595112383,
+"view": 0.9657162241637703,
+"review": 8.766916650347412,
+"plan": 42.03179860487582
+},
+"event": {
+"review": {
+"slow15": 1286,
+"ready_s": null
+},
+"plan": {
+"slow15": 603,
+"ready_s": 7.747063398361206
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 17,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.993317622691393,
+"p95": 8.021952840499582,
+"p99": 27.640287866815903,
+"slow_pct": 0.136509131990209,
+"n": 42488,
+"phase_p95": [
+3.909073839895427,
+8.365522348321974,
+29.16390688624233,
+3.8949311943724747
+],
+"phase_n": [
+11760,
+8832,
+5288,
+16608
+],
+"action_p95": {
+"scan": 4.386185109615326,
+"detect": 4.533798852935433,
+"view": 0.9237437741830938,
+"review": 8.893024735152721,
+"plan": 32.24377860315143
+},
+"event": {
+"review": {
+"slow15": 1291,
+"ready_s": null
+},
+"plan": {
+"slow15": 659,
+"ready_s": 0.23283696174621582
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 18,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.6230610199272633,
+"p95": 6.490308279171586,
+"p99": 9.26881332416087,
+"slow_pct": 0.09784231937792884,
+"n": 38838,
+"phase_p95": [
+2.297963388264179,
+8.405865821987389,
+1206.0107778757808,
+2.7962461113929744
+],
+"phase_n": [
+12309,
+9035,
+445,
+17049
+],
+"action_p95": {
+"scan": 2.2163499146699905,
+"detect": 2.868777886033058,
+"view": 0.8754231967031956,
+"review": 8.884872589260338,
+"plan": 1262.6915407599881
+},
+"event": {
+"review": {
+"slow15": 1235,
+"ready_s": null
+},
+"plan": {
+"slow15": 69,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 19,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.997629413381219,
+"p95": 12.399362516589463,
+"p99": 61.48835646454199,
+"slow_pct": 1.359946692512721,
+"n": 33016,
+"phase_p95": [
+4.6643484849482775,
+16.537686926312748,
+77.4863300845027,
+4.175149858929216
+],
+"phase_n": [
+9919,
+5670,
+1615,
+15812
+],
+"action_p95": {
+"detect": 4.512394568882883,
+"scan": 4.940237267874181,
+"view": 0.7964933756738901,
+"review": 18.06109396275131,
+"plan": 79.30563781410454
+},
+"event": {
+"review": {
+"slow15": 1263,
+"ready_s": null
+},
+"plan": {
+"slow15": 279,
+"ready_s": 25.3038809299469
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 20,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.7169487439095974,
+"p95": 14.091234002262354,
+"p99": 53.42290226370079,
+"slow_pct": 1.0542230212887673,
+"n": 24473,
+"phase_p95": [
+9.327777056023479,
+16.38800278306008,
+194.10373736172915,
+7.782175252214072
+],
+"phase_n": [
+7808,
+4580,
+1033,
+11052
+],
+"action_p95": {
+"scan": 10.44426606968045,
+"detect": 9.251667652279139,
+"view": 1.2388341594487418,
+"review": 17.332543223164976,
+"plan": 197.6853021653369
+},
+"event": {
+"review": {
+"slow15": 968,
+"ready_s": null
+},
+"plan": {
+"slow15": 170,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 21,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 3.1249041203409433,
+"p95": 18.4060676023364,
+"p99": 84.51023013796663,
+"slow_pct": 1.368044920877999,
+"n": 19590,
+"phase_p95": [
+10.181405185721815,
+23.630032502114748,
+185.40419922210273,
+12.471343041397631
+],
+"phase_n": [
+6480,
+3587,
+927,
+8596
+],
+"action_p95": {
+"detect": 12.729318207129836,
+"view": 1.3200304238125675,
+"scan": 11.143725272268057,
+"review": 29.798576654866327,
+"plan": 190.78704272396863
+},
+"event": {
+"review": {
+"slow15": 943,
+"ready_s": null
+},
+"plan": {
+"slow15": 186,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 22,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.3290755450725555,
+"p95": 14.895923808217045,
+"p99": 35.66202430985805,
+"slow_pct": 0.7772656612212616,
+"n": 36667,
+"phase_p95": [
+2.902241214178502,
+24.77199479471892,
+119.08594155684108,
+2.4683848256245255
+],
+"phase_n": [
+12028,
+3906,
+1529,
+19204
+],
+"action_p95": {
+"view": 1.1141545837745068,
+"scan": 2.973548579029739,
+"detect": 2.987215993925929,
+"review": 30.85343637503681,
+"plan": 135.4405814781785
+},
+"event": {
+"review": {
+"slow15": 1104,
+"ready_s": null
+},
+"plan": {
+"slow15": 278,
+"ready_s": 31.63478422164917
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 23,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.391678746789694,
+"p95": 13.20201028138398,
+"p99": 18.544552456587557,
+"slow_pct": 0.12313040958968602,
+"n": 27613,
+"phase_p95": [
+4.861143813468515,
+18.525634449906647,
+3627.9147358145565,
+3.569220658391714
+],
+"phase_n": [
+8822,
+4274,
+156,
+14361
+],
+"action_p95": {
+"detect": 4.705196712166071,
+"view": 1.2887917691841722,
+"scan": 5.210313852876425,
+"review": 19.23400699160993,
+"plan": 3739.0149051789194
+},
+"event": {
+"review": {
+"slow15": 860,
+"ready_s": null
+},
+"plan": {
+"slow15": 40,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 24,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.8813877142965794,
+"p95": 16.124804969877005,
+"p99": 62.50467030331361,
+"slow_pct": 1.092050038710729,
+"n": 24541,
+"phase_p95": [
+6.580727780237793,
+19.576339260675013,
+151.42101454548538,
+8.125032763928175
+],
+"phase_n": [
+8203,
+4054,
+1335,
+10949
+],
+"action_p95": {
+"detect": 8.370899525471032,
+"view": 1.304418034851551,
+"scan": 7.321512117050588,
+"review": 21.45380035508424,
+"plan": 192.64507945626974
+},
+"event": {
+"review": {
+"slow15": 922,
+"ready_s": null
+},
+"plan": {
+"slow15": 264,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 25,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 3.117982530966401,
+"p95": 16.5374566335231,
+"p99": 69.96146062854669,
+"slow_pct": 1.7667685668045316,
+"n": 22244,
+"phase_p95": [
+7.988761086016893,
+18.592197098769244,
+115.71819507516922,
+9.894951479509473
+],
+"phase_n": [
+7613,
+4032,
+1232,
+9367
+],
+"action_p95": {
+"detect": 10.245346091687681,
+"scan": 8.848146302625537,
+"view": 1.3689963147044177,
+"review": 19.61777296382934,
+"plan": 149.36196096241468
+},
+"event": {
+"review": {
+"slow15": 855,
+"ready_s": null
+},
+"plan": {
+"slow15": 236,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 26,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.4170191027224064,
+"p95": 8.64568883553146,
+"p99": 28.30865142866969,
+"slow_pct": 0.053127905432328336,
+"n": 37645,
+"phase_p95": [
+5.908894632011648,
+8.779061958193779,
+29.76645983289927,
+4.637872148305176
+],
+"phase_n": [
+8910,
+8561,
+5222,
+14952
+],
+"action_p95": {
+"scan": 6.352028693072498,
+"detect": 5.315402755513787,
+"view": 0.9124199859797955,
+"review": 9.29154092445969,
+"plan": 33.55449358932669
+},
+"event": {
+"review": {
+"slow15": 1201,
+"ready_s": null
+},
+"plan": {
+"slow15": 527,
+"ready_s": 2.482072591781616
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 27,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 2.3127903696149588,
+"p95": 8.297315868549036,
+"p99": 33.9836820960046,
+"slow_pct": 0.6461013966787639,
+"n": 36372,
+"phase_p95": [
+5.374838830903169,
+8.61955676227808,
+54.00588340125978,
+4.495926760137081
+],
+"phase_n": [
+9175,
+8549,
+3771,
+14877
+],
+"action_p95": {
+"detect": 5.047955596819519,
+"scan": 5.881573166698218,
+"view": 0.8769271895289421,
+"review": 9.096887055784464,
+"plan": 59.82878431677818
+},
+"event": {
+"review": {
+"slow15": 1276,
+"ready_s": null
+},
+"plan": {
+"slow15": 419,
+"ready_s": 17.458049774169922
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 28,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.554399263113737,
+"p95": 8.350559603422878,
+"p99": 29.422253146767577,
+"slow_pct": 0.4293355855855856,
+"n": 42624,
+"phase_p95": [
+2.1530281985178585,
+8.575361920520663,
+50.96976733766496,
+2.475243993103504
+],
+"phase_n": [
+12400,
+9051,
+3462,
+17711
+],
+"action_p95": {
+"detect": 2.57788929156959,
+"scan": 2.0659835543483496,
+"view": 0.9155082516372204,
+"review": 10.789928003214293,
+"plan": 56.79656635038555
+},
+"event": {
+"review": {
+"slow15": 1281,
+"ready_s": null
+},
+"plan": {
+"slow15": 421,
+"ready_s": 8.051404237747192
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 29,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.8853507936000824,
+"p95": 8.405720349401234,
+"p99": 28.834856152534467,
+"slow_pct": 0.14116947767293261,
+"n": 40377,
+"phase_p95": [
+2.72735059261322,
+8.007845981046556,
+33.49913435522466,
+3.31938648596406
+],
+"phase_n": [
+11065,
+9348,
+3560,
+16404
+],
+"action_p95": {
+"detect": 3.4165518824011083,
+"scan": 3.0361453536897898,
+"view": 0.9292820468544958,
+"review": 8.508973359130321,
+"plan": 40.971917868591866
+},
+"event": {
+"review": {
+"slow15": 1269,
+"ready_s": null
+},
+"plan": {
+"slow15": 594,
+"ready_s": 13.016719102859497
+}
+},
+"builds": 0,
+"drops": 0
+},
+{
+"meta": {
+"arm": "production",
+"seed": 30,
+"phases": [
+"chip scan and flake detection",
+"review of the new chips",
+"stacking planner",
+"detection with web viewing"
+],
+"phase_s": 45.0,
+"gap_s": 15.0,
+"final_indexes": [
+"crystallite_area_num_idx",
+"crystallite_chip_id_idx",
+"crystallite_classification_ai_idx",
+"crystallite_image_id_idx",
+"crystallite_image_path_idx",
+"crystallite_image_process_info_id_idx",
+"crystallite_reviewed_checked",
+"crystallite_reviewed_idx",
+"crystallite_reviewed_true_created_idx",
+"crystallite_unreviewed_created_idx",
+"crystallite_user_id_idx",
+"idx_crystallite_bulk_crystal_id",
+"idx_crystallite_removed_at"
+]
+},
+"median": 1.9789314828813076,
+"p95": 6.661547254770986,
+"p99": 9.185655657202005,
+"slow_pct": 0.10304261957237314,
+"n": 34937,
+"phase_p95": [
+4.508323967456818,
+8.284938312135637,
+1100.4445878788829,
+3.8407951127737756
+],
+"phase_n": [
+9821,
+8840,
+536,
+15740
+],
+"action_p95": {
+"scan": 4.854062106460333,
+"detect": 4.357533715665337,
+"view": 0.8869288489222525,
+"review": 8.659274014644325,
+"plan": 1285.4946802835912
+},
+"event": {
+"review": {
+"slow15": 1279,
+"ready_s": null
+},
+"plan": {
+"slow15": 78,
+"ready_s": null
+}
+},
+"builds": 0,
+"drops": 0
+}
+]

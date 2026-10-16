@@ -1,0 +1,120 @@
+{
+ "kind": "reads",
+ "arm": "plan",
+ "pool": 12,
+ "seed": 1,
+ "indexes": [
+  "crystallite_chip_id_idx",
+  "crystallite_classification_ai_idx",
+  "crystallite_image_path_idx",
+  "crystallite_image_process_info_id_idx",
+  "crystallite_reviewed_true_created_idx",
+  "crystallite_user_id_idx",
+  "idx_crystallite_removed_at",
+  "ix_archive",
+  "ix_monolayer_area",
+  "ix_review_queue"
+ ],
+ "step_s": 30.0,
+ "year4_users": {
+  "staff": 4,
+  "novice": 30,
+  "research": 30,
+  "power": 8,
+  "prototype": 4,
+  "industry": 4,
+  "education": 40,
+  "ehs": 3
+ },
+ "slo_ms": {
+  "staff": 100,
+  "novice": 300,
+  "research": 500,
+  "power": 3000,
+  "prototype": 500,
+  "industry": 300,
+  "education": 300,
+  "ehs": 1000
+ },
+ "steps": [
+  {
+   "k": 9,
+   "users": 1107,
+   "write_scale": 2.0,
+   "offered": 2886,
+   "offered_per_s": 96.2,
+   "served": 2886,
+   "undrained": 0,
+   "over_share": 0.12300762300762301,
+   "p95_ms": {
+    "prototype": 401.9579887390137,
+    "education": 418.81728172302246,
+    "power": 936.0499382019043,
+    "novice": 522.0670700073242,
+    "research": 480.7851314544678,
+    "staff": 451.9762992858887,
+    "industry": 536.7763042449951,
+    "ehs": 344.93374824523926
+   },
+   "svc_mean_ms": 97.65808605437302,
+   "tiles_per_min_offered": 218.0,
+   "tiles_written": 115,
+   "tiles_per_min": 230.0,
+   "write_p95_ms": 276.2336730957031,
+   "wall_s": 30.270111560821533
+  },
+  {
+   "k": 10,
+   "users": 1230,
+   "write_scale": 2.0,
+   "offered": 3227,
+   "offered_per_s": 107.56666666666666,
+   "served": 3227,
+   "undrained": 0,
+   "over_share": 0.29810969941121784,
+   "p95_ms": {
+    "prototype": 745.2602386474609,
+    "education": 812.8869533538818,
+    "staff": 823.2414722442627,
+    "novice": 875.5416870117188,
+    "power": 1228.6076545715332,
+    "research": 869.0135478973389,
+    "industry": 856.7562103271484,
+    "ehs": 924.8483180999756
+   },
+   "svc_mean_ms": 103.38897397727246,
+   "tiles_per_min_offered": 218.0,
+   "tiles_written": 101,
+   "tiles_per_min": 202.0,
+   "write_p95_ms": 304.02088165283203,
+   "wall_s": 31.476606607437134
+  },
+  {
+   "k": 11,
+   "users": 1353,
+   "write_scale": 2.0,
+   "offered": 3577,
+   "offered_per_s": 119.23333333333333,
+   "served": 3577,
+   "undrained": 0,
+   "over_share": 0.5454291305563321,
+   "p95_ms": {
+    "novice": 898.3032703399658,
+    "education": 818.8896179199219,
+    "industry": 880.5959224700928,
+    "prototype": 804.0235042572021,
+    "research": 925.2679347991943,
+    "staff": 791.4018630981445,
+    "power": 1267.688274383545,
+    "ehs": 803.6620616912842
+   },
+   "svc_mean_ms": 100.1816281800434,
+   "tiles_per_min_offered": 218.0,
+   "tiles_written": 122,
+   "tiles_per_min": 244.0,
+   "write_p95_ms": 274.7986316680908,
+   "wall_s": 31.01904582977295
+  }
+ ],
+ "capacity_step": null
+}

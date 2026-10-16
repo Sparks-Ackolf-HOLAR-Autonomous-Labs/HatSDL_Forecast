@@ -1,0 +1,52 @@
+[
+ {
+  "kind": "prefill",
+  "prompt_tokens": 134,
+  "s": 0.1008920450694859
+ },
+ {
+  "kind": "prefill",
+  "prompt_tokens": 1035,
+  "s": 0.27698827162384987
+ },
+ {
+  "kind": "prefill",
+  "prompt_tokens": 4034,
+  "s": 1.037171646952629
+ },
+ {
+  "kind": "prefill",
+  "prompt_tokens": 16034,
+  "s": 4.199106805957854
+ },
+ {
+  "kind": "decode",
+  "completion_tokens": 16,
+  "s": 1.2542923861183226
+ },
+ {
+  "kind": "decode",
+  "completion_tokens": 128,
+  "s": 9.93386323703453
+ },
+ {
+  "kind": "decode",
+  "completion_tokens": 512,
+  "s": 39.74172203429043
+ },
+ {
+  "kind": "image_prefill",
+  "prompt_tokens": 1217,
+  "s": 0.531029568053782
+ },
+ {
+  "kind": "image_prefill",
+  "prompt_tokens": 1217,
+  "s": 0.5231607249006629
+ },
+ {
+  "kind": "image_prefill",
+  "prompt_tokens": 1217,
+  "s": 0.5275756749324501
+ }
+]

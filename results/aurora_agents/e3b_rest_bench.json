@@ -1,0 +1,23 @@
+{
+ "aurora_get_flake": {
+  "n": 200,
+  "direct_median_ms": 0.34920847974717617,
+  "http_median_ms": 0.7995299529284239,
+  "http_p95_ms": 1.2001153081655502,
+  "db_median_ms": 0.2355
+ },
+ "aurora_chip_summary": {
+  "n": 200,
+  "direct_median_ms": 2.8121427167207003,
+  "http_median_ms": 4.917684709653258,
+  "http_p95_ms": 5.934942048043013,
+  "db_median_ms": 4.3215
+ },
+ "aurora_stack_candidates": {
+  "n": 200,
+  "direct_median_ms": 12.305431067943573,
+  "http_median_ms": 16.22979249805212,
+  "http_p95_ms": 19.291409291327,
+  "db_median_ms": 15.001999999999999
+ }
+}

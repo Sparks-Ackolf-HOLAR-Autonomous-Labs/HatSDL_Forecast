@@ -1,0 +1,8 @@
+# figures and tables
+numpy
+matplotlib
+scipy
+# rerunning the experiments
+psycopg[binary]
+pillow
+# the agent experiments also need a model server, e.g. vllm (GPU)

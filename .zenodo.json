@@ -1,0 +1,30 @@
+{
+ "title": "Laboratory plans let a self-driving database prepare for the workload of a two-dimensional materials laboratory network",
+ "description": "Code, result files, figure scripts and figures for the paper \"Laboratory plans let a self-driving database prepare for the workload of a two-dimensional materials laboratory network\" (Data-Centric Engineering (Cambridge University Press)). Taylor D. Sparks acknowledges support from the U.S. National Science Foundation through the Programmable Cloud Laboratory (PCL) Test Bed AURORA, Award No. 2607535.",
+ "upload_type": "software",
+ "access_right": "open",
+ "license": "cc-by-4.0",
+ "notes": "Code (Python and shell scripts) is released under the MIT License (LICENSE). Data, result files and figures are released under the Creative Commons Attribution 4.0 International licence (LICENSE-CC-BY-4.0.txt). AURORA production records are not redistributed.",
+ "creators": [
+  {
+   "name": "Ackölf, Kinston",
+   "affiliation": "Materials Science & Engineering, The University of Utah",
+   "orcid": "0000-0002-5579-4878"
+  },
+  {
+   "name": "Sparks, Taylor D.",
+   "affiliation": "Materials Science & Engineering, The University of Utah",
+   "orcid": "0000-0001-8020-7711"
+  }
+ ],
+ "keywords": [
+  "self-driving database management system",
+  "self-driving laboratory",
+  "workload forecasting",
+  "index tuning",
+  "admission control",
+  "two-dimensional materials",
+  "AURORA",
+  "Programmable Cloud Laboratory"
+ ]
+}

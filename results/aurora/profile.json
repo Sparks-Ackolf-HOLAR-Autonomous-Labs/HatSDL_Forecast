@@ -1,0 +1,474 @@
+{
+ "server": {
+  "version": "15.8",
+  "started": "2026-10-05 16:04:13.671841+00:00",
+  "captured": "2026-10-07 04:14:19.836310+00:00",
+  "settings": {
+   "effective_cache_size": "12582912",
+   "maintenance_work_mem": "65536",
+   "random_page_cost": "4",
+   "shared_buffers": "6291456",
+   "work_mem": "4096"
+  }
+ },
+ "tables": {
+  "wafer": {
+   "rows_est": -1,
+   "total_mb": 0.0,
+   "heap_mb": 0.0
+  },
+  "image": {
+   "rows_est": 709250,
+   "total_mb": 1061.4,
+   "heap_mb": 875.9
+  },
+  "image_process_info": {
+   "rows_est": 807392,
+   "total_mb": 240.4,
+   "heap_mb": 137.9
+  },
+  "chip": {
+   "rows_est": 808,
+   "total_mb": 65.4,
+   "heap_mb": 0.4
+  },
+  "crystallite": {
+   "rows_est": 5614890,
+   "total_mb": 6490.6,
+   "heap_mb": 4734.4
+  },
+  "bulk_crystal": {
+   "rows_est": -1,
+   "total_mb": 0.0,
+   "heap_mb": 0.0
+  },
+  "tray": {
+   "rows_est": 36,
+   "total_mb": 0.1,
+   "heap_mb": 0.0
+  },
+  "statistics": {
+   "rows_est": -1,
+   "total_mb": 0.1,
+   "heap_mb": 0.0
+  },
+  "export_queue": {
+   "rows_est": -1,
+   "total_mb": 0.1,
+   "heap_mb": 0.0
+  },
+  "user_profile": {
+   "rows_est": -1,
+   "total_mb": 0.0,
+   "heap_mb": 0.0
+  }
+ },
+ "table_usage": {
+  "bulk_crystal": {
+   "seq_scan": 3,
+   "idx_scan": 140,
+   "ins": 0,
+   "upd": 0
+  },
+  "chip": {
+   "seq_scan": 7,
+   "idx_scan": 52137,
+   "ins": 0,
+   "upd": 0
+  },
+  "tray": {
+   "seq_scan": 1,
+   "idx_scan": 0,
+   "ins": 0,
+   "upd": 0
+  },
+  "crystallite": {
+   "seq_scan": 0,
+   "idx_scan": 12417,
+   "ins": 116,
+   "upd": 21
+  },
+  "wafer": {
+   "seq_scan": 0,
+   "idx_scan": 0,
+   "ins": 0,
+   "upd": 0
+  },
+  "image": {
+   "seq_scan": 8,
+   "idx_scan": 162518,
+   "ins": 0,
+   "upd": 0
+  },
+  "image_process_info": {
+   "seq_scan": 1,
+   "idx_scan": 4047540,
+   "ins": 0,
+   "upd": 0
+  },
+  "statistics": {
+   "seq_scan": 0,
+   "idx_scan": 0,
+   "ins": 0,
+   "upd": 0
+  },
+  "export_queue": {
+   "seq_scan": 0,
+   "idx_scan": 4,
+   "ins": 0,
+   "upd": 0
+  },
+  "user_profile": {
+   "seq_scan": 0,
+   "idx_scan": 6,
+   "ins": 0,
+   "upd": 0
+  }
+ },
+ "index_usage": [
+  {
+   "table": "bulk_crystal",
+   "index": "bulk_crystal_pkey",
+   "scans": 140,
+   "tuples_read": 140,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX bulk_crystal_pkey ON public.bulk_crystal USING btree (bulk_crystal_id)"
+  },
+  {
+   "table": "chip",
+   "index": "chip_pkey",
+   "scans": 52116,
+   "tuples_read": 52116,
+   "size_mb": 0.1,
+   "definition": "CREATE UNIQUE INDEX chip_pkey ON public.chip USING btree (chip_id)"
+  },
+  {
+   "table": "chip",
+   "index": "chip_tray_id_tray_index_key",
+   "scans": 21,
+   "tuples_read": 189,
+   "size_mb": 0.1,
+   "definition": "CREATE UNIQUE INDEX chip_tray_id_tray_index_key ON public.chip USING btree (tray_id, tray_index)"
+  },
+  {
+   "table": "chip",
+   "index": "chip_bulk_crystal_idx",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE INDEX chip_bulk_crystal_idx ON public.chip USING btree (bulk_crystal_id)"
+  },
+  {
+   "table": "chip",
+   "index": "idx_chip_removed_at",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE INDEX idx_chip_removed_at ON public.chip USING btree (removed_at)"
+  },
+  {
+   "table": "chip",
+   "index": "chip_wafer_id_idx",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE INDEX chip_wafer_id_idx ON public.chip USING btree (wafer_id)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_image_path_idx",
+   "scans": 12247,
+   "tuples_read": 45501,
+   "size_mb": 189.3,
+   "definition": "CREATE INDEX crystallite_image_path_idx ON public.crystallite USING btree (image_path)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_chip_id_idx",
+   "scans": 119,
+   "tuples_read": 748298,
+   "size_mb": 96.9,
+   "definition": "CREATE INDEX crystallite_chip_id_idx ON public.crystallite USING btree (chip_id)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystalite_pkey",
+   "scans": 25,
+   "tuples_read": 25,
+   "size_mb": 259.0,
+   "definition": "CREATE UNIQUE INDEX crystalite_pkey ON public.crystallite USING btree (crystallite_id)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_classification_ai_idx",
+   "scans": 13,
+   "tuples_read": 6446737,
+   "size_mb": 107.1,
+   "definition": "CREATE INDEX crystallite_classification_ai_idx ON public.crystallite USING btree (classification_ai)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_reviewed_checked",
+   "scans": 9,
+   "tuples_read": 7370828,
+   "size_mb": 51.4,
+   "definition": "CREATE INDEX crystallite_reviewed_checked ON public.crystallite USING btree (reviewed, h_label_checked)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_reviewed_idx",
+   "scans": 2,
+   "tuples_read": 330784,
+   "size_mb": 98.6,
+   "definition": "CREATE INDEX crystallite_reviewed_idx ON public.crystallite USING btree (reviewed)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_reviewed_true_created_idx",
+   "scans": 2,
+   "tuples_read": 21,
+   "size_mb": 10.6,
+   "definition": "CREATE INDEX crystallite_reviewed_true_created_idx ON public.crystallite USING btree (created_at DESC, crystallite_id DESC) WHERE (reviewed = true)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_user_id_idx",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 51.2,
+   "definition": "CREATE INDEX crystallite_user_id_idx ON public.crystallite USING btree (user_id)"
+  },
+  {
+   "table": "crystallite",
+   "index": "idx_crystallite_removed_at",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 50.7,
+   "definition": "CREATE INDEX idx_crystallite_removed_at ON public.crystallite USING btree (removed_at)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_image_id_idx",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 94.6,
+   "definition": "CREATE INDEX crystallite_image_id_idx ON public.crystallite USING btree (image_id)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_area_num_idx",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 192.8,
+   "definition": "CREATE INDEX crystallite_area_num_idx ON public.crystallite USING btree ((((physical_dimensions ->> 'area_um2'::text))::numeric))"
+  },
+  {
+   "table": "crystallite",
+   "index": "idx_crystallite_bulk_crystal_id",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 109.2,
+   "definition": "CREATE INDEX idx_crystallite_bulk_crystal_id ON public.crystallite USING btree (bulk_crystal_id)"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_unreviewed_created_idx",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 296.4,
+   "definition": "CREATE INDEX crystallite_unreviewed_created_idx ON public.crystallite USING btree (created_at, crystallite_id) WHERE ((reviewed = false) OR (reviewed IS NULL))"
+  },
+  {
+   "table": "crystallite",
+   "index": "crystallite_image_process_info_id_idx",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 80.1,
+   "definition": "CREATE INDEX crystallite_image_process_info_id_idx ON public.crystallite USING btree (image_process_info_id)"
+  },
+  {
+   "table": "export_queue",
+   "index": "export_queue_crystallite_id_key",
+   "scans": 4,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX export_queue_crystallite_id_key ON public.export_queue USING btree (crystallite_id)"
+  },
+  {
+   "table": "export_queue",
+   "index": "idx_export_queue_exported_at",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE INDEX idx_export_queue_exported_at ON public.export_queue USING btree (exported_at)"
+  },
+  {
+   "table": "export_queue",
+   "index": "export_queue_pkey",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX export_queue_pkey ON public.export_queue USING btree (id)"
+  },
+  {
+   "table": "export_queue",
+   "index": "idx_export_queue_added_by",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE INDEX idx_export_queue_added_by ON public.export_queue USING btree (added_by)"
+  },
+  {
+   "table": "image",
+   "index": "image_pkey",
+   "scans": 104056,
+   "tuples_read": 104056,
+   "size_mb": 40.4,
+   "definition": "CREATE UNIQUE INDEX image_pkey ON public.image USING btree (image_id)"
+  },
+  {
+   "table": "image",
+   "index": "image_chip_id_idx",
+   "scans": 58406,
+   "tuples_read": 8527366,
+   "size_mb": 16.9,
+   "definition": "CREATE INDEX image_chip_id_idx ON public.image USING btree (chip_id)"
+  },
+  {
+   "table": "image",
+   "index": "image_image_path_idx",
+   "scans": 56,
+   "tuples_read": 30030847,
+   "size_mb": 127.9,
+   "definition": "CREATE INDEX image_image_path_idx ON public.image USING btree (image_path)"
+  },
+  {
+   "table": "image_process_info",
+   "index": "image_process_info_image_id_idx",
+   "scans": 4021590,
+   "tuples_read": 4365544,
+   "size_mb": 34.1,
+   "definition": "CREATE INDEX image_process_info_image_id_idx ON public.image_process_info USING btree (image_id)"
+  },
+  {
+   "table": "image_process_info",
+   "index": "image_process_info_processed_image_idx",
+   "scans": 25834,
+   "tuples_read": 0,
+   "size_mb": 35.1,
+   "definition": "CREATE INDEX image_process_info_processed_image_idx ON public.image_process_info USING btree (is_processed, image_id)"
+  },
+  {
+   "table": "image_process_info",
+   "index": "image_process_info_pkey",
+   "scans": 116,
+   "tuples_read": 116,
+   "size_mb": 33.2,
+   "definition": "CREATE UNIQUE INDEX image_process_info_pkey ON public.image_process_info USING btree (image_process_info_id)"
+  },
+  {
+   "table": "statistics",
+   "index": "statistics_pkey",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX statistics_pkey ON public.statistics USING btree (id)"
+  },
+  {
+   "table": "tray",
+   "index": "tray_pkey",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX tray_pkey ON public.tray USING btree (tray_id)"
+  },
+  {
+   "table": "tray",
+   "index": "tray_grid_x_grid_y_key",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX tray_grid_x_grid_y_key ON public.tray USING btree (grid_x, grid_y)"
+  },
+  {
+   "table": "user_profile",
+   "index": "user_profile_pkey",
+   "scans": 6,
+   "tuples_read": 6,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX user_profile_pkey ON public.user_profile USING btree (id)"
+  },
+  {
+   "table": "wafer",
+   "index": "wafer_pkey",
+   "scans": 0,
+   "tuples_read": 0,
+   "size_mb": 0.0,
+   "definition": "CREATE UNIQUE INDEX wafer_pkey ON public.wafer USING btree (wafer_id)"
+  }
+ ],
+ "activity": {
+  "chips_per_month": {
+   "2025-09-01": 10,
+   "2025-10-01": 120,
+   "2025-11-01": 120,
+   "2025-12-01": 12,
+   "2026-01-01": 20,
+   "2026-02-01": 70,
+   "2026-03-01": 29,
+   "2026-04-01": 57,
+   "2026-05-01": 81,
+   "2026-06-01": 71,
+   "2026-07-01": 52,
+   "2026-08-01": 54,
+   "2026-09-01": 108,
+   "2026-10-01": 8
+  },
+  "images_per_month": {
+   "2025-09-01": 8370,
+   "2025-10-01": 49171,
+   "2025-11-01": 93274,
+   "2026-01-01": 129114,
+   "2026-02-01": 75946,
+   "2026-03-01": 29287,
+   "2026-04-01": 66925,
+   "2026-05-01": 85272,
+   "2026-06-01": 103367,
+   "2026-07-01": 34884,
+   "2026-08-01": 68478,
+   "2026-09-01": 63308
+  },
+  "images_last_30d": [
+   54264,
+   42
+  ]
+ },
+ "content": {
+  "materials": {
+   "Graphite rods": 1,
+   "WS2": 2,
+   "hBN": 2,
+   "WSe2": 1,
+   "MoS2": 1,
+   "HOPG": 1,
+   "graphite": 1
+  },
+  "classification_ai": {
+   "bilayer": 46301,
+   "monolayer": 27233,
+   "thick": 6158141,
+   "trilayer": 6241,
+   "None": 1655
+  },
+  "review_state": {
+   "reviewed=False,checked=False": 5075675,
+   "reviewed=False,checked=True": 958353,
+   "reviewed=True,checked=False": 160162,
+   "reviewed=True,checked=True": 45381
+  },
+  "export_queue": [
+   1,
+   0
+  ]
+ }
+}

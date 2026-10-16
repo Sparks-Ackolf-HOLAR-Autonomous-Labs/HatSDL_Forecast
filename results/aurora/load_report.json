@@ -1,0 +1,36 @@
+{
+ "bulk_crystal": {
+  "rows": 9,
+  "copy_s": 0.1
+ },
+ "wafer": {
+  "rows": 1,
+  "copy_s": 0.1
+ },
+ "tray": {
+  "rows": 37,
+  "copy_s": 0.1
+ },
+ "chip": {
+  "rows": 812,
+  "copy_s": 2.0
+ },
+ "image": {
+  "rows": 807396,
+  "copy_s": 235.1
+ },
+ "image_process_info": {
+  "rows": 807392,
+  "copy_s": 72.4
+ },
+ "crystallite": {
+  "rows": 6239571,
+  "copy_s": 1362.9
+ },
+ "export_queue": {
+  "rows": 1,
+  "copy_s": 0.1
+ },
+ "db_size": "3670 MB",
+ "total_s": 1673.7
+}

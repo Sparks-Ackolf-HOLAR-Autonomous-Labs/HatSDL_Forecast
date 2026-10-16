@@ -1,0 +1,24 @@
+{"t": 1791385612.0967443, "case": "A", "task": "research", "event": "start", "answer": ""}
+{"t": 1791385615.2542496, "case": "A", "task": "research", "event": "end", "answer": "10 WSe2 monolayers returned (confidence not recorded, null); IDs 012e80b8 (137 um2), 0024c3f4 (111), 004bfae5 (35), 0068b0da (118), 0078eade (543), 005460ba (2350), 00675e52 (78), 00f81bdd (103), 010a02f6 (222), 014575e2 (116)."}
+{"t": 1791385615.6061165, "case": "A", "task": "planner", "event": "start", "answer": ""}
+{"t": 1791385618.3814056, "case": "A", "task": "planner", "event": "end", "answer": "Largest monolayers of crystal cfdfbdfa: ab7ea0b9 (42,891 um2), a361a44c (29,993), 27706f43 (29,526), 3ac6547a (28,241), 21c8e3da (28,017)."}
+{"t": 1791385618.7213528, "case": "A", "task": "novice", "event": "start", "answer": ""}
+{"t": 1791385621.4532602, "case": "A", "task": "novice", "event": "end", "answer": "Chip 2e9c6681 holds 53,974 flakes: 53,942 thick, 28 trilayer, 4 bilayer, no monolayers."}
+{"t": 1791385621.7444253, "case": "A", "task": "pid", "event": "start", "answer": ""}
+{"t": 1791385624.258134, "case": "A", "task": "pid", "event": "end", "answer": "Flake 31178819 is classed thick by the detector (not reviewed, confidence not recorded), on chip 83326956."}
+{"t": 1791385624.6624117, "case": "A", "task": "ehs", "event": "start", "answer": ""}
+{"t": 1791385627.5400472, "case": "A", "task": "ehs", "event": "end", "answer": "Five chips had flakes removed since 1 July 2026: 7e247f16 (4,433), 30b62c48 (4,258), ae6dac46 (4,022), d013417f (3,841), 2a013bc9 (1)."}
+{"t": 1791385627.8892703, "case": "A", "task": "tile", "event": "start", "answer": ""}
+{"t": 1791385631.0433452, "case": "A", "task": "tile", "event": "end", "answer": "31 flakes were detected on tile 0010_0031 of chip 83326956, all classed thick."}
+{"t": 1791385632.8048072, "case": "B", "task": "research", "event": "start", "answer": ""}
+{"t": 1791385640.430538, "case": "B", "task": "research", "event": "end", "answer": "Top WSe2 monolayers by detector confidence: 752b8313 (98.7%, 36 um2), 47563086 (98.0%, 74), 197c99c9 (97.4%, 67), 354e2476 (97.4%, 75), ac3d3806 (94.6%, 273), 63d8ba16 (92.3%, 49), c4055dad (92.0%, 117), f76d2fab (90.5%, 54), c9142ac3 (90.4%, 46), 181b58e9 (89.4%, 31)."}
+{"t": 1791385640.7791264, "case": "B", "task": "planner", "event": "start", "answer": ""}
+{"t": 1791385648.0770617, "case": "B", "task": "planner", "event": "end", "answer": "Five largest monolayers of crystal cfdfbdfa: ab7ea0b9 (42,891 um2), a361a44c (29,993), 27706f43 (29,526), 3ac6547a (28,241), 21c8e3da (28,017). Areas over 28,000 um2 are unusually large for monolayers; check them before stacking."}
+{"t": 1791385648.4258912, "case": "B", "task": "novice", "event": "start", "answer": ""}
+{"t": 1791385653.1605923, "case": "B", "task": "novice", "event": "end", "answer": "Chip 2e9c6681 holds 53,974 flakes, none removed: 53,942 thick, 28 trilayer, 4 bilayer and no monolayers."}
+{"t": 1791385653.5142708, "case": "B", "task": "pid", "event": "start", "answer": ""}
+{"t": 1791385658.5499606, "case": "B", "task": "pid", "event": "end", "answer": "Flake 31178819 is classed thick by the detector with 99.8% confidence, not yet reviewed, on chip 83326956; it has not been removed."}
+{"t": 1791385658.9080462, "case": "B", "task": "ehs", "event": "start", "answer": ""}
+{"t": 1791385663.065795, "case": "B", "task": "ehs", "event": "end", "answer": "Since 1 July 2026, flakes were removed from five chips: 7e247f16 (4,433), 30b62c48 (4,258), ae6dac46 (4,022), d013417f (3,841) and 2a013bc9 (1)."}
+{"t": 1791385663.4095252, "case": "B", "task": "tile", "event": "start", "answer": ""}
+{"t": 1791385667.3903496, "case": "B", "task": "tile", "event": "end", "answer": "The detector found 31 flakes on tile 0010_0031 of chip 83326956, all thick."}

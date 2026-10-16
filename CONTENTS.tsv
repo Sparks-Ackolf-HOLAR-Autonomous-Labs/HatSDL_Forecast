@@ -1,0 +1,331 @@
+path	role	bytes
+.gitignore	repository file	36
+.zenodo.json	repository file	1470
+CITATION.cff	repository file	869
+LICENSE	repository file	1093
+LICENSE-CC-BY-4.0.txt	repository file	18657
+README.md	repository file	3979
+REPRODUCE.md	documentation (CC BY 4.0)	7514
+gym/__init__.py	code (MIT)	0
+gym/agent_latency.py	code (MIT)	22713
+gym/analyze_admission.py	code (MIT)	4554
+gym/analyze_agents.py	code (MIT)	6591
+gym/analyze_aurora.py	code (MIT)	4789
+gym/analyze_byo.py	code (MIT)	5569
+gym/analyze_capacity.py	code (MIT)	2996
+gym/analyze_multi.py	code (MIT)	8126
+gym/analyze_national.py	code (MIT)	5979
+gym/analyze_surge.py	code (MIT)	7778
+gym/analyze_users.py	code (MIT)	7487
+gym/asta_mcp.py	code (MIT)	2384
+gym/aurora_admission.py	code (MIT)	20683
+gym/aurora_capacity.py	code (MIT)	8154
+gym/aurora_gym.py	code (MIT)	20293
+gym/aurora_national.py	code (MIT)	17479
+gym/aurora_next.py	code (MIT)	8640
+gym/aurora_src.py	code (MIT)	9034
+gym/aurora_surge.py	code (MIT)	4355
+gym/aurora_users.py	code (MIT)	20280
+gym/byo_mark.sh	code (MIT)	525
+gym/cpu_probe.py	code (MIT)	1304
+gym/e1_curves.py	code (MIT)	2002
+gym/e1_run_stats.py	code (MIT)	3168
+gym/multi_agent.py	code (MIT)	22044
+gym/rest_api.py	code (MIT)	10322
+gym/stats_tests.py	code (MIT)	7841
+paper_figures/figures/fig_e1a_latency.png	figure (CC BY 4.0)	343519
+paper_figures/figures/fig_e2_users.png	figure (CC BY 4.0)	339059
+paper_figures/figures/fig_e4_admission.png	figure (CC BY 4.0)	279864
+paper_figures/figures/fig_e4b_surge.png	figure (CC BY 4.0)	273533
+paper_figures/figures/fig_loop.pdf	figure (CC BY 4.0)	27201
+paper_figures/figures/fig_loop.png	figure (CC BY 4.0)	394542
+paper_figures/regen_figs/fig_e1_latency.py	code (MIT)	2429
+paper_figures/regen_figs/fig_e2_users.py	code (MIT)	2971
+paper_figures/regen_figs/fig_e4_admission.py	code (MIT)	2709
+paper_figures/regen_figs/fig_e4b_surge.py	code (MIT)	3498
+paper_figures/regen_figs/fig_loop.py	code (MIT)	2941
+paper_figures/regen_figs/paper_fig_style.py	code (MIT)	2690
+requirements.txt	repository file	161
+results/aurora/behaviour_model.json	result file (CC BY 4.0)	3335
+results/aurora/behaviour_model_users.json	result file (CC BY 4.0)	9403
+results/aurora/e1a_curves.json	result file (CC BY 4.0)	131689
+results/aurora/e1a_history_s1.json.gz	result file (CC BY 4.0)	1308680
+results/aurora/e1a_history_s2.json.gz	result file (CC BY 4.0)	1057339
+results/aurora/e1a_history_s3.json.gz	result file (CC BY 4.0)	888420
+results/aurora/e1a_plan_s1.json.gz	result file (CC BY 4.0)	1592526
+results/aurora/e1a_plan_s2.json.gz	result file (CC BY 4.0)	1473344
+results/aurora/e1a_plan_s3.json.gz	result file (CC BY 4.0)	1628116
+results/aurora/e1a_production_s1.json.gz	result file (CC BY 4.0)	279337
+results/aurora/e1a_production_s2.json.gz	result file (CC BY 4.0)	280989
+results/aurora/e1a_production_s3.json.gz	result file (CC BY 4.0)	252783
+results/aurora/e1a_run_stats.json	result file (CC BY 4.0)	87291
+results/aurora/e1a_summary.md	result file (CC BY 4.0)	2467
+results/aurora/e2_history_s1.json.gz	result file (CC BY 4.0)	88912
+results/aurora/e2_history_s10.json.gz	result file (CC BY 4.0)	88092
+results/aurora/e2_history_s11.json.gz	result file (CC BY 4.0)	89745
+results/aurora/e2_history_s12.json.gz	result file (CC BY 4.0)	88745
+results/aurora/e2_history_s13.json.gz	result file (CC BY 4.0)	89088
+results/aurora/e2_history_s14.json.gz	result file (CC BY 4.0)	89844
+results/aurora/e2_history_s15.json.gz	result file (CC BY 4.0)	83318
+results/aurora/e2_history_s16.json.gz	result file (CC BY 4.0)	86105
+results/aurora/e2_history_s17.json.gz	result file (CC BY 4.0)	88103
+results/aurora/e2_history_s18.json.gz	result file (CC BY 4.0)	87275
+results/aurora/e2_history_s19.json.gz	result file (CC BY 4.0)	89641
+results/aurora/e2_history_s2.json.gz	result file (CC BY 4.0)	89714
+results/aurora/e2_history_s20.json.gz	result file (CC BY 4.0)	89507
+results/aurora/e2_history_s21.json.gz	result file (CC BY 4.0)	88212
+results/aurora/e2_history_s22.json.gz	result file (CC BY 4.0)	90284
+results/aurora/e2_history_s23.json.gz	result file (CC BY 4.0)	92304
+results/aurora/e2_history_s24.json.gz	result file (CC BY 4.0)	86468
+results/aurora/e2_history_s25.json.gz	result file (CC BY 4.0)	86544
+results/aurora/e2_history_s26.json.gz	result file (CC BY 4.0)	89501
+results/aurora/e2_history_s27.json.gz	result file (CC BY 4.0)	86136
+results/aurora/e2_history_s28.json.gz	result file (CC BY 4.0)	85827
+results/aurora/e2_history_s29.json.gz	result file (CC BY 4.0)	88436
+results/aurora/e2_history_s3.json.gz	result file (CC BY 4.0)	89496
+results/aurora/e2_history_s30.json.gz	result file (CC BY 4.0)	90336
+results/aurora/e2_history_s4.json.gz	result file (CC BY 4.0)	86430
+results/aurora/e2_history_s5.json.gz	result file (CC BY 4.0)	89857
+results/aurora/e2_history_s6.json.gz	result file (CC BY 4.0)	89911
+results/aurora/e2_history_s7.json.gz	result file (CC BY 4.0)	89979
+results/aurora/e2_history_s8.json.gz	result file (CC BY 4.0)	91036
+results/aurora/e2_history_s9.json.gz	result file (CC BY 4.0)	90325
+results/aurora/e2_plan_s1.json.gz	result file (CC BY 4.0)	88763
+results/aurora/e2_plan_s10.json.gz	result file (CC BY 4.0)	87542
+results/aurora/e2_plan_s11.json.gz	result file (CC BY 4.0)	89379
+results/aurora/e2_plan_s12.json.gz	result file (CC BY 4.0)	88339
+results/aurora/e2_plan_s13.json.gz	result file (CC BY 4.0)	88768
+results/aurora/e2_plan_s14.json.gz	result file (CC BY 4.0)	89848
+results/aurora/e2_plan_s15.json.gz	result file (CC BY 4.0)	83533
+results/aurora/e2_plan_s16.json.gz	result file (CC BY 4.0)	86451
+results/aurora/e2_plan_s17.json.gz	result file (CC BY 4.0)	87724
+results/aurora/e2_plan_s18.json.gz	result file (CC BY 4.0)	87407
+results/aurora/e2_plan_s19.json.gz	result file (CC BY 4.0)	90642
+results/aurora/e2_plan_s2.json.gz	result file (CC BY 4.0)	89450
+results/aurora/e2_plan_s20.json.gz	result file (CC BY 4.0)	89349
+results/aurora/e2_plan_s21.json.gz	result file (CC BY 4.0)	89132
+results/aurora/e2_plan_s22.json.gz	result file (CC BY 4.0)	90052
+results/aurora/e2_plan_s23.json.gz	result file (CC BY 4.0)	91821
+results/aurora/e2_plan_s24.json.gz	result file (CC BY 4.0)	85983
+results/aurora/e2_plan_s25.json.gz	result file (CC BY 4.0)	86360
+results/aurora/e2_plan_s26.json.gz	result file (CC BY 4.0)	89126
+results/aurora/e2_plan_s27.json.gz	result file (CC BY 4.0)	86014
+results/aurora/e2_plan_s28.json.gz	result file (CC BY 4.0)	85590
+results/aurora/e2_plan_s29.json.gz	result file (CC BY 4.0)	88469
+results/aurora/e2_plan_s3.json.gz	result file (CC BY 4.0)	89062
+results/aurora/e2_plan_s30.json.gz	result file (CC BY 4.0)	90527
+results/aurora/e2_plan_s4.json.gz	result file (CC BY 4.0)	86212
+results/aurora/e2_plan_s5.json.gz	result file (CC BY 4.0)	90894
+results/aurora/e2_plan_s6.json.gz	result file (CC BY 4.0)	89226
+results/aurora/e2_plan_s7.json.gz	result file (CC BY 4.0)	90494
+results/aurora/e2_plan_s8.json.gz	result file (CC BY 4.0)	90192
+results/aurora/e2_plan_s9.json.gz	result file (CC BY 4.0)	89674
+results/aurora/e2_production_s1.json.gz	result file (CC BY 4.0)	88370
+results/aurora/e2_production_s10.json.gz	result file (CC BY 4.0)	87399
+results/aurora/e2_production_s11.json.gz	result file (CC BY 4.0)	88966
+results/aurora/e2_production_s12.json.gz	result file (CC BY 4.0)	87983
+results/aurora/e2_production_s13.json.gz	result file (CC BY 4.0)	88687
+results/aurora/e2_production_s14.json.gz	result file (CC BY 4.0)	89309
+results/aurora/e2_production_s15.json.gz	result file (CC BY 4.0)	82819
+results/aurora/e2_production_s16.json.gz	result file (CC BY 4.0)	85773
+results/aurora/e2_production_s17.json.gz	result file (CC BY 4.0)	87259
+results/aurora/e2_production_s18.json.gz	result file (CC BY 4.0)	87180
+results/aurora/e2_production_s19.json.gz	result file (CC BY 4.0)	88787
+results/aurora/e2_production_s2.json.gz	result file (CC BY 4.0)	89188
+results/aurora/e2_production_s20.json.gz	result file (CC BY 4.0)	88627
+results/aurora/e2_production_s21.json.gz	result file (CC BY 4.0)	87324
+results/aurora/e2_production_s22.json.gz	result file (CC BY 4.0)	89393
+results/aurora/e2_production_s23.json.gz	result file (CC BY 4.0)	91204
+results/aurora/e2_production_s24.json.gz	result file (CC BY 4.0)	86035
+results/aurora/e2_production_s25.json.gz	result file (CC BY 4.0)	85708
+results/aurora/e2_production_s26.json.gz	result file (CC BY 4.0)	88995
+results/aurora/e2_production_s27.json.gz	result file (CC BY 4.0)	85676
+results/aurora/e2_production_s28.json.gz	result file (CC BY 4.0)	85005
+results/aurora/e2_production_s29.json.gz	result file (CC BY 4.0)	87915
+results/aurora/e2_production_s3.json.gz	result file (CC BY 4.0)	89454
+results/aurora/e2_production_s30.json.gz	result file (CC BY 4.0)	89378
+results/aurora/e2_production_s4.json.gz	result file (CC BY 4.0)	86339
+results/aurora/e2_production_s5.json.gz	result file (CC BY 4.0)	88759
+results/aurora/e2_production_s6.json.gz	result file (CC BY 4.0)	89015
+results/aurora/e2_production_s7.json.gz	result file (CC BY 4.0)	89239
+results/aurora/e2_production_s8.json.gz	result file (CC BY 4.0)	89782
+results/aurora/e2_production_s9.json.gz	result file (CC BY 4.0)	89275
+results/aurora/e2_summary.md	result file (CC BY 4.0)	7249
+results/aurora/e2b_cpu_probe_series.json	result file (CC BY 4.0)	2869
+results/aurora/e2b_reads_plan_p12_s1.json	result file (CC BY 4.0)	4720
+results/aurora/e2b_reads_plan_p12_s1_refine.json	result file (CC BY 4.0)	2780
+results/aurora/e2b_reads_plan_p6_s1.json	result file (CC BY 4.0)	4080
+results/aurora/e2b_reads_plan_p6_s1_cpuprobe.json	result file (CC BY 4.0)	3406
+results/aurora/e2b_reads_plan_p6_s1_refine.json	result file (CC BY 4.0)	3452
+results/aurora/e2b_reads_production_p6_s1.json	result file (CC BY 4.0)	4214
+results/aurora/e2b_reads_production_p6_s1_refine.json	result file (CC BY 4.0)	3598
+results/aurora/e2b_summary.md	result file (CC BY 4.0)	2020
+results/aurora/e2b_writes_plan_p6_s1.json	result file (CC BY 4.0)	6669
+results/aurora/e2b_writes_production_p6_s1.json	result file (CC BY 4.0)	6779
+results/aurora/e2c_burst_a400_s1.json	result file (CC BY 4.0)	14871
+results/aurora/e2c_burst_a400_s10.json	result file (CC BY 4.0)	14985
+results/aurora/e2c_burst_a400_s10_machine_limit.json	result file (CC BY 4.0)	5049
+results/aurora/e2c_burst_a400_s11.json	result file (CC BY 4.0)	14501
+results/aurora/e2c_burst_a400_s11_machine_limit.json	result file (CC BY 4.0)	4785
+results/aurora/e2c_burst_a400_s12.json	result file (CC BY 4.0)	14885
+results/aurora/e2c_burst_a400_s12_machine_limit.json	result file (CC BY 4.0)	4788
+results/aurora/e2c_burst_a400_s13.json	result file (CC BY 4.0)	15108
+results/aurora/e2c_burst_a400_s13_machine_limit.json	result file (CC BY 4.0)	5046
+results/aurora/e2c_burst_a400_s14.json	result file (CC BY 4.0)	14742
+results/aurora/e2c_burst_a400_s14_machine_limit.json	result file (CC BY 4.0)	5035
+results/aurora/e2c_burst_a400_s15.json	result file (CC BY 4.0)	14890
+results/aurora/e2c_burst_a400_s15_machine_limit.json	result file (CC BY 4.0)	5053
+results/aurora/e2c_burst_a400_s16.json	result file (CC BY 4.0)	15150
+results/aurora/e2c_burst_a400_s16_machine_limit.json	result file (CC BY 4.0)	5052
+results/aurora/e2c_burst_a400_s17.json	result file (CC BY 4.0)	14222
+results/aurora/e2c_burst_a400_s17_machine_limit.json	result file (CC BY 4.0)	4705
+results/aurora/e2c_burst_a400_s18.json	result file (CC BY 4.0)	15013
+results/aurora/e2c_burst_a400_s18_machine_limit.json	result file (CC BY 4.0)	5033
+results/aurora/e2c_burst_a400_s19.json	result file (CC BY 4.0)	15118
+results/aurora/e2c_burst_a400_s19_machine_limit.json	result file (CC BY 4.0)	4909
+results/aurora/e2c_burst_a400_s2.json	result file (CC BY 4.0)	14830
+results/aurora/e2c_burst_a400_s20.json	result file (CC BY 4.0)	14942
+results/aurora/e2c_burst_a400_s20_machine_limit.json	result file (CC BY 4.0)	4784
+results/aurora/e2c_burst_a400_s21.json	result file (CC BY 4.0)	14796
+results/aurora/e2c_burst_a400_s21_machine_limit.json	result file (CC BY 4.0)	4907
+results/aurora/e2c_burst_a400_s22.json	result file (CC BY 4.0)	14927
+results/aurora/e2c_burst_a400_s22_machine_limit.json	result file (CC BY 4.0)	4910
+results/aurora/e2c_burst_a400_s23.json	result file (CC BY 4.0)	14314
+results/aurora/e2c_burst_a400_s23_machine_limit.json	result file (CC BY 4.0)	4639
+results/aurora/e2c_burst_a400_s24.json	result file (CC BY 4.0)	14601
+results/aurora/e2c_burst_a400_s24_machine_limit.json	result file (CC BY 4.0)	4909
+results/aurora/e2c_burst_a400_s25.json	result file (CC BY 4.0)	14647
+results/aurora/e2c_burst_a400_s25_machine_limit.json	result file (CC BY 4.0)	5164
+results/aurora/e2c_burst_a400_s26.json	result file (CC BY 4.0)	14991
+results/aurora/e2c_burst_a400_s26_machine_limit.json	result file (CC BY 4.0)	4909
+results/aurora/e2c_burst_a400_s27.json	result file (CC BY 4.0)	14963
+results/aurora/e2c_burst_a400_s27_machine_limit.json	result file (CC BY 4.0)	4902
+results/aurora/e2c_burst_a400_s28.json	result file (CC BY 4.0)	14856
+results/aurora/e2c_burst_a400_s28_machine_limit.json	result file (CC BY 4.0)	4927
+results/aurora/e2c_burst_a400_s29.json	result file (CC BY 4.0)	15090
+results/aurora/e2c_burst_a400_s29_machine_limit.json	result file (CC BY 4.0)	5087
+results/aurora/e2c_burst_a400_s3.json	result file (CC BY 4.0)	15120
+results/aurora/e2c_burst_a400_s30.json	result file (CC BY 4.0)	14867
+results/aurora/e2c_burst_a400_s30_machine_limit.json	result file (CC BY 4.0)	4901
+results/aurora/e2c_burst_a400_s4.json	result file (CC BY 4.0)	14449
+results/aurora/e2c_burst_a400_s4_machine_limit.json	result file (CC BY 4.0)	4924
+results/aurora/e2c_burst_a400_s5.json	result file (CC BY 4.0)	14584
+results/aurora/e2c_burst_a400_s5_machine_limit.json	result file (CC BY 4.0)	4653
+results/aurora/e2c_burst_a400_s6.json	result file (CC BY 4.0)	14917
+results/aurora/e2c_burst_a400_s6_machine_limit.json	result file (CC BY 4.0)	5043
+results/aurora/e2c_burst_a400_s7.json	result file (CC BY 4.0)	14929
+results/aurora/e2c_burst_a400_s7_machine_limit.json	result file (CC BY 4.0)	4989
+results/aurora/e2c_burst_a400_s8.json	result file (CC BY 4.0)	15038
+results/aurora/e2c_burst_a400_s8_machine_limit.json	result file (CC BY 4.0)	5051
+results/aurora/e2c_burst_a400_s9.json	result file (CC BY 4.0)	15131
+results/aurora/e2c_burst_a400_s9_machine_limit.json	result file (CC BY 4.0)	5040
+results/aurora/e2c_burst_a800_s1.json	result file (CC BY 4.0)	10243
+results/aurora/e2c_demand.json	result file (CC BY 4.0)	4331
+results/aurora/e2c_ramp_N4_agents_p6_s1.json	result file (CC BY 4.0)	10093
+results/aurora/e2c_ramp_W_all_p6_s1.json	result file (CC BY 4.0)	6196
+results/aurora/e2c_run_p6_s1.json	result file (CC BY 4.0)	11754
+results/aurora/e2c_summary.md	result file (CC BY 4.0)	1800
+results/aurora/e4_admission_s1.json	result file (CC BY 4.0)	29300
+results/aurora/e4_admission_s10.json	result file (CC BY 4.0)	28462
+results/aurora/e4_admission_s11.json	result file (CC BY 4.0)	28927
+results/aurora/e4_admission_s12.json	result file (CC BY 4.0)	28129
+results/aurora/e4_admission_s13.json	result file (CC BY 4.0)	28123
+results/aurora/e4_admission_s14.json	result file (CC BY 4.0)	28882
+results/aurora/e4_admission_s15.json	result file (CC BY 4.0)	28859
+results/aurora/e4_admission_s16.json	result file (CC BY 4.0)	28497
+results/aurora/e4_admission_s17.json	result file (CC BY 4.0)	28431
+results/aurora/e4_admission_s18.json	result file (CC BY 4.0)	28846
+results/aurora/e4_admission_s19.json	result file (CC BY 4.0)	28951
+results/aurora/e4_admission_s2.json	result file (CC BY 4.0)	28533
+results/aurora/e4_admission_s20.json	result file (CC BY 4.0)	28893
+results/aurora/e4_admission_s21.json	result file (CC BY 4.0)	28479
+results/aurora/e4_admission_s22.json	result file (CC BY 4.0)	28736
+results/aurora/e4_admission_s23.json	result file (CC BY 4.0)	28303
+results/aurora/e4_admission_s24.json	result file (CC BY 4.0)	28565
+results/aurora/e4_admission_s25.json	result file (CC BY 4.0)	28965
+results/aurora/e4_admission_s26.json	result file (CC BY 4.0)	29097
+results/aurora/e4_admission_s27.json	result file (CC BY 4.0)	28568
+results/aurora/e4_admission_s28.json	result file (CC BY 4.0)	28877
+results/aurora/e4_admission_s29.json	result file (CC BY 4.0)	28515
+results/aurora/e4_admission_s3.json	result file (CC BY 4.0)	28678
+results/aurora/e4_admission_s30.json	result file (CC BY 4.0)	28572
+results/aurora/e4_admission_s4.json	result file (CC BY 4.0)	28500
+results/aurora/e4_admission_s5.json	result file (CC BY 4.0)	28420
+results/aurora/e4_admission_s6.json	result file (CC BY 4.0)	28174
+results/aurora/e4_admission_s7.json	result file (CC BY 4.0)	28525
+results/aurora/e4_admission_s8.json	result file (CC BY 4.0)	28443
+results/aurora/e4_admission_s9.json	result file (CC BY 4.0)	28091
+results/aurora/e4_summary.md	result file (CC BY 4.0)	3845
+results/aurora/e4b/check_s19_rerun.json	result file (CC BY 4.0)	33316
+results/aurora/e4b/check_s19_sensitivity.md	result file (CC BY 4.0)	5702
+results/aurora/e4b/e4b_surge_s1.json	result file (CC BY 4.0)	33348
+results/aurora/e4b/e4b_surge_s10.json	result file (CC BY 4.0)	33126
+results/aurora/e4b/e4b_surge_s11.json	result file (CC BY 4.0)	33290
+results/aurora/e4b/e4b_surge_s12.json	result file (CC BY 4.0)	32642
+results/aurora/e4b/e4b_surge_s13.json	result file (CC BY 4.0)	32272
+results/aurora/e4b/e4b_surge_s14.json	result file (CC BY 4.0)	33579
+results/aurora/e4b/e4b_surge_s15.json	result file (CC BY 4.0)	33127
+results/aurora/e4b/e4b_surge_s16.json	result file (CC BY 4.0)	32668
+results/aurora/e4b/e4b_surge_s17.json	result file (CC BY 4.0)	33237
+results/aurora/e4b/e4b_surge_s18.json	result file (CC BY 4.0)	33530
+results/aurora/e4b/e4b_surge_s19.json	result file (CC BY 4.0)	34541
+results/aurora/e4b/e4b_surge_s2.json	result file (CC BY 4.0)	32707
+results/aurora/e4b/e4b_surge_s20.json	result file (CC BY 4.0)	33695
+results/aurora/e4b/e4b_surge_s21.json	result file (CC BY 4.0)	33190
+results/aurora/e4b/e4b_surge_s22.json	result file (CC BY 4.0)	33533
+results/aurora/e4b/e4b_surge_s23.json	result file (CC BY 4.0)	32886
+results/aurora/e4b/e4b_surge_s24.json	result file (CC BY 4.0)	32684
+results/aurora/e4b/e4b_surge_s25.json	result file (CC BY 4.0)	33249
+results/aurora/e4b/e4b_surge_s26.json	result file (CC BY 4.0)	33146
+results/aurora/e4b/e4b_surge_s27.json	result file (CC BY 4.0)	34369
+results/aurora/e4b/e4b_surge_s28.json	result file (CC BY 4.0)	33250
+results/aurora/e4b/e4b_surge_s29.json	result file (CC BY 4.0)	32824
+results/aurora/e4b/e4b_surge_s3.json	result file (CC BY 4.0)	33475
+results/aurora/e4b/e4b_surge_s30.json	result file (CC BY 4.0)	33323
+results/aurora/e4b/e4b_surge_s4.json	result file (CC BY 4.0)	33316
+results/aurora/e4b/e4b_surge_s5.json	result file (CC BY 4.0)	33174
+results/aurora/e4b/e4b_surge_s6.json	result file (CC BY 4.0)	32228
+results/aurora/e4b/e4b_surge_s7.json	result file (CC BY 4.0)	32680
+results/aurora/e4b/e4b_surge_s8.json	result file (CC BY 4.0)	32865
+results/aurora/e4b/e4b_surge_s9.json	result file (CC BY 4.0)	32306
+results/aurora/e4b/run.log	result file (CC BY 4.0)	27668
+results/aurora/e4b/run_e4b.sh	code (MIT)	467
+results/aurora/e4b/stats.json	result file (CC BY 4.0)	5038
+results/aurora/e4b/summary.md	result file (CC BY 4.0)	5587
+results/aurora/load_report.json	result file (CC BY 4.0)	461
+results/aurora/profile.json	result file (CC BY 4.0)	11747
+results/aurora/seeds30/README.md	result file (CC BY 4.0)	2105
+results/aurora/seeds30/chain.sh	code (MIT)	300
+results/aurora/seeds30/lane.sh	code (MIT)	547
+results/aurora/seeds30/phase2.sh	code (MIT)	518
+results/aurora/stats_tests.json	result file (CC BY 4.0)	9699
+results/aurora/stats_tests.md	result file (CC BY 4.0)	3747
+results/aurora/write_profile.json	result file (CC BY 4.0)	1525
+results/aurora_agents/e3_A-V.jsonl	result file (CC BY 4.0)	2422
+results/aurora_agents/e3_A.jsonl	result file (CC BY 4.0)	11893
+results/aurora_agents/e3_A_rest.jsonl	result file (CC BY 4.0)	11770
+results/aurora_agents/e3_B.jsonl	result file (CC BY 4.0)	19492
+results/aurora_agents/e3_B_rest.jsonl	result file (CC BY 4.0)	18901
+results/aurora_agents/e3_concurrency.jsonl	result file (CC BY 4.0)	21994
+results/aurora_agents/e3_microbench.json	result file (CC BY 4.0)	810
+results/aurora_agents/e3_network.json	result file (CC BY 4.0)	5254
+results/aurora_agents/e3_summary.md	result file (CC BY 4.0)	3333
+results/aurora_agents/e3b_claude_marks.jsonl	result file (CC BY 4.0)	3811
+results/aurora_agents/e3b_network.json	result file (CC BY 4.0)	7696
+results/aurora_agents/e3b_rest_bench.json	result file (CC BY 4.0)	568
+results/aurora_agents/e3b_rest_log.jsonl	result file (CC BY 4.0)	10605
+results/aurora_agents/e3b_summary.md	result file (CC BY 4.0)	1257
+results/aurora_agents/serve.sh	code (MIT)	504
+results/aurora_agents/startup_log_excerpt.txt	result file (CC BY 4.0)	420
+results/aurora_multi/e3c_metrics.json	result file (CC BY 4.0)	32967
+results/aurora_multi/e3c_single_all_projected_summary.jsonl	result file (CC BY 4.0)	93927
+results/aurora_multi/e3c_single_all_today_summary.jsonl	result file (CC BY 4.0)	146482
+results/aurora_multi/e3c_single_archive_today_summary.jsonl	result file (CC BY 4.0)	81277
+results/aurora_multi/e3c_summary.md	result file (CC BY 4.0)	1882
+results/aurora_multi/e3c_team_projected_raw.jsonl	result file (CC BY 4.0)	117027
+results/aurora_multi/e3c_team_projected_summary.jsonl	result file (CC BY 4.0)	109475
+results/aurora_multi/e3c_team_today_summary.jsonl	result file (CC BY 4.0)	151503
+sdldb/__init__.py	code (MIT)	78
+sdldb/layers/__init__.py	code (MIT)	65
+sdldb/layers/config.py	code (MIT)	1883
+stack/postgres_setup.sh	code (MIT)	1974

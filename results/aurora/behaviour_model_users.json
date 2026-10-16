@@ -1,0 +1,313 @@
+{
+ "templates": {
+  "none": {
+   "planner": 678.8909402675927,
+   "review": 575.5630079656839,
+   "removed_audit": 631.5674348734319,
+   "viewer": 553.7979509681463,
+   "own_flakes": 603.4904620610178,
+   "archive_search": 674.55063899979,
+   "sweep_export": 724.1163980215788,
+   "workbench_page": 611.6066500544548,
+   "pid_lookup": 1.1881431564688683,
+   "chip_summary": 472.9159097187221,
+   "detector_compare": 642.2688849270344
+  }
+ },
+ "indexes": {
+  "crystallite_image_path_idx": {
+   "build_s": 5.47,
+   "size_mb": 87.7,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 0.2895682118833065,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_chip_id_idx": {
+   "build_s": 2.68,
+   "size_mb": 42.2,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 24.47148784995079,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 18.714420031756163,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_classification_ai_idx": {
+   "build_s": 2.23,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 13.633558992296457,
+    "review": 25.63151903450489,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 9.97324101626873,
+    "sweep_export": 67.66563514247537,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_reviewed_checked": {
+   "build_s": 2.51,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 285.1342433132231,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_reviewed_idx": {
+   "build_s": 1.92,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 260.5013633146882,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_reviewed_true_created_idx": {
+   "build_s": 0.73,
+   "size_mb": 8.0,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 0.34985505044460297,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_user_id_idx": {
+   "build_s": 1.79,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 0.851375050842762,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "idx_crystallite_removed_at": {
+   "build_s": 1.95,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 0.4376322031021118,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_image_id_idx": {
+   "build_s": 2.42,
+   "size_mb": 57.7,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_area_num_idx": {
+   "build_s": 4.42,
+   "size_mb": 133.9,
+   "latency_ms": {
+    "planner": 2.917054109275341,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "idx_crystallite_bulk_crystal_id": {
+   "build_s": 2.46,
+   "size_mb": 42.0,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_unreviewed_created_idx": {
+   "build_s": 2.84,
+   "size_mb": 233.6,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "crystallite_image_process_info_id_idx": {
+   "build_s": 2.43,
+   "size_mb": 57.7,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 1.867485698312521
+   }
+  },
+  "ix_review_queue": {
+   "build_s": 0.79,
+   "size_mb": 0.3,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 0.7144627161324024,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "ix_monolayer_area": {
+   "build_s": 0.93,
+   "size_mb": 1.1,
+   "latency_ms": {
+    "planner": 0.6434079259634018,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 6.499147973954678,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "ix_archive": {
+   "build_s": 5.21,
+   "size_mb": 295.8,
+   "latency_ms": {
+    "planner": 6.1110202223062515,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 603.4904620610178,
+    "archive_search": 2.6568793691694736,
+    "sweep_export": 41.3028527982533,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  },
+  "ix_user_recent": {
+   "build_s": 1.98,
+   "size_mb": 45.0,
+   "latency_ms": {
+    "planner": 678.8909402675927,
+    "review": 575.5630079656839,
+    "removed_audit": 631.5674348734319,
+    "viewer": 553.7979509681463,
+    "own_flakes": 1.005070749670267,
+    "archive_search": 674.55063899979,
+    "sweep_export": 724.1163980215788,
+    "workbench_page": 611.6066500544548,
+    "pid_lookup": 1.1881431564688683,
+    "chip_summary": 472.9159097187221,
+    "detector_compare": 642.2688849270344
+   }
+  }
+ },
+ "write_ms_per_flake_batch": {
+  "no_secondary": 0.7519521750509739,
+  "all_15": 1.2428308837115765,
+  "per_index": 0.03272524724404017
+ }
+}

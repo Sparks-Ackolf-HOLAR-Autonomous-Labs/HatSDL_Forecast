@@ -1,0 +1,151 @@
+{
+ "templates": {
+  "none": {
+   "planner": 701.6636561602354,
+   "viewer": 574.8816379345953,
+   "review": 599.6093535795808
+  }
+ },
+ "indexes": {
+  "crystallite_image_path_idx": {
+   "build_s": 5.5,
+   "size_mb": 87.7,
+   "latency_ms": {
+    "planner": 670.8696568384767,
+    "viewer": 0.5232961848378181,
+    "review": 572.8576248511672
+   }
+  },
+  "crystallite_chip_id_idx": {
+   "build_s": 2.71,
+   "size_mb": 42.2,
+   "latency_ms": {
+    "planner": 678.2364710234106,
+    "viewer": 551.6560850664973,
+    "review": 22.87091687321663
+   }
+  },
+  "crystallite_classification_ai_idx": {
+   "build_s": 2.25,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 13.03823385387659,
+    "viewer": 552.4847409687936,
+    "review": 79.01258626952767
+   }
+  },
+  "crystallite_reviewed_checked": {
+   "build_s": 2.48,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 656.2031409703195,
+    "viewer": 549.1623762063682,
+    "review": 573.1635647825897
+   }
+  },
+  "crystallite_reviewed_idx": {
+   "build_s": 1.92,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 664.1497621312737,
+    "viewer": 549.2438180372119,
+    "review": 568.1834570132196
+   }
+  },
+  "crystallite_reviewed_true_created_idx": {
+   "build_s": 0.75,
+   "size_mb": 8.0,
+   "latency_ms": {
+    "planner": 663.7159558013082,
+    "viewer": 543.6808448284864,
+    "review": 572.3345917649567
+   }
+  },
+  "crystallite_user_id_idx": {
+   "build_s": 1.84,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 656.1766979284585,
+    "viewer": 543.2952311821282,
+    "review": 569.5956042036414
+   }
+  },
+  "idx_crystallite_removed_at": {
+   "build_s": 1.92,
+   "size_mb": 41.3,
+   "latency_ms": {
+    "planner": 658.4816421382129,
+    "viewer": 545.0371517799795,
+    "review": 568.7755728140473
+   }
+  },
+  "crystallite_image_id_idx": {
+   "build_s": 2.46,
+   "size_mb": 57.7,
+   "latency_ms": {
+    "planner": 666.6691438294947,
+    "viewer": 544.1661779768765,
+    "review": 572.2943572327495
+   }
+  },
+  "crystallite_area_num_idx": {
+   "build_s": 4.49,
+   "size_mb": 133.9,
+   "latency_ms": {
+    "planner": 2.7395659126341343,
+    "viewer": 552.3841753602028,
+    "review": 577.8634436428547
+   }
+  },
+  "idx_crystallite_bulk_crystal_id": {
+   "build_s": 2.48,
+   "size_mb": 42.0,
+   "latency_ms": {
+    "planner": 680.2049167454243,
+    "viewer": 542.7479888312519,
+    "review": 567.1148579567671
+   }
+  },
+  "crystallite_unreviewed_created_idx": {
+   "build_s": 2.85,
+   "size_mb": 233.6,
+   "latency_ms": {
+    "planner": 656.2728341668844,
+    "viewer": 543.6158790253103,
+    "review": 564.5750369876623
+   }
+  },
+  "crystallite_image_process_info_id_idx": {
+   "build_s": 2.45,
+   "size_mb": 57.7,
+   "latency_ms": {
+    "planner": 658.1022101454437,
+    "viewer": 544.6643750183284,
+    "review": 572.4446992389858
+   }
+  },
+  "ix_review_queue": {
+   "build_s": 0.79,
+   "size_mb": 0.3,
+   "latency_ms": {
+    "planner": 675.7691479288042,
+    "viewer": 552.9645322822034,
+    "review": 0.6029121577739716
+   }
+  },
+  "ix_monolayer_area": {
+   "build_s": 0.91,
+   "size_mb": 1.1,
+   "latency_ms": {
+    "planner": 0.5541602149605751,
+    "viewer": 553.4262130968273,
+    "review": 568.9042061567307
+   }
+  }
+ },
+ "write_ms_per_flake_batch": {
+  "no_secondary": 0.7519521750509739,
+  "all_15": 1.2428308837115765,
+  "per_index": 0.03272524724404017
+ }
+}

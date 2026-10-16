@@ -1,0 +1,468 @@
+{
+ "tests": [
+  {
+   "test": "E1 95th pct over the day (ms)",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 1.2763233506120737,
+   "median_b": 2.0600702380761504,
+   "median_diff": -0.6885212729685045,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -0.7738023530691845,
+    -0.5115277948789301
+   ],
+   "p": 1.862645149230957e-09,
+   "p_holm": 4.470348358154297e-08
+  },
+  {
+   "test": "E1 time to ready, review (s)",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 0.2721134824752838,
+   "median_b": 10.515962839126587,
+   "median_diff": -10.262077927589417,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -12.817025542259216,
+    -9.9865932006836
+   ],
+   "p": 1.862645149230957e-09,
+   "p_holm": 4.470348358154297e-08
+  },
+  {
+   "test": "E1 time to ready, stacking (s)",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 0.14276480674743652,
+   "median_b": 10.793283581733704,
+   "median_diff": -10.648971319198608,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -12.359168887138367,
+    -10.406195044517517
+   ],
+   "p": 1.862645149230957e-09,
+   "p_holm": 4.470348358154297e-08
+  },
+  {
+   "test": "E1 slow calls first 15 s, review",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 22.0,
+   "median_b": 18.0,
+   "median_diff": 0.5,
+   "a_lower_in": 14,
+   "ties": 1,
+   "ci95": [
+    -5.0,
+    12.0
+   ],
+   "p": 0.16950499462550783,
+   "p_holm": 1.0
+  },
+  {
+   "test": "E1 slow calls first 15 s, stacking",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 3.0,
+   "median_b": 13.0,
+   "median_diff": -10.0,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -10.5,
+    -6.5
+   ],
+   "p": 1.6126331218675013e-06,
+   "p_holm": 2.580212994988002e-05
+  },
+  {
+   "test": "E1 95th pct over the day (ms)",
+   "a": "plan-aware",
+   "b": "production",
+   "n": 30,
+   "median_a": 1.2763233506120737,
+   "median_b": 9.501000000000001,
+   "median_diff": -8.4605,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -11.79191533010453,
+    -7.477581012062733
+   ],
+   "p": 1.862645149230957e-09,
+   "p_holm": 4.470348358154297e-08
+  },
+  {
+   "test": "E2 actions over target, today: development staff (%)",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 10.128205128205128,
+   "median_diff": -9.75609756097561,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -12.074829931972788,
+    -7.692307692307692
+   ],
+   "p": 1.7311263949197288e-06,
+   "p_holm": 2.596689592379593e-05
+  },
+  {
+   "test": "E2 actions over target, today: development staff (%)",
+   "a": "plan-aware",
+   "b": "production",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "median_diff": 0.0,
+   "a_lower_in": 3,
+   "ties": 23,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 0.7353166906373405,
+   "p_holm": 1.0
+  },
+  {
+   "test": "E2 actions over target, beta (18 mo): pilot users (%)",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 6.09529702970297,
+   "median_diff": -5.561844000823214,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -7.511902662669723,
+    -4.50596736218235
+   ],
+   "p": 1.862645149230957e-09,
+   "p_holm": 4.470348358154297e-08
+  },
+  {
+   "test": "E2 actions over target, beta (18 mo): pilot users (%)",
+   "a": "plan-aware",
+   "b": "production",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "median_diff": 0.0,
+   "a_lower_in": 4,
+   "ties": 22,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 0.8885020292282984,
+   "p_holm": 1.0
+  },
+  {
+   "test": "E2 actions over target, user service (24 mo): workshop (%)",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 6.071621878611449,
+   "median_diff": -5.74496983205203,
+   "a_lower_in": 30,
+   "ties": 0,
+   "ci95": [
+    -6.733878569046273,
+    -4.736973323360758
+   ],
+   "p": 1.862645149230957e-09,
+   "p_holm": 4.470348358154297e-08
+  },
+  {
+   "test": "E2 actions over target, user service (24 mo): workshop (%)",
+   "a": "plan-aware",
+   "b": "production",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "median_diff": 0.0,
+   "a_lower_in": 5,
+   "ties": 19,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 0.2860033840207056,
+   "p_holm": 1.0
+  },
+  {
+   "test": "E2 actions over target, year 4: 20 % of US groups (%)",
+   "a": "plan-aware",
+   "b": "history",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "median_diff": 0.0,
+   "a_lower_in": 5,
+   "ties": 17,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 0.5524933360016062,
+   "p_holm": 1.0
+  },
+  {
+   "test": "E2 actions over target, year 4: 20 % of US groups (%)",
+   "a": "plan-aware",
+   "b": "production",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "median_diff": 0.0,
+   "a_lower_in": 7,
+   "ties": 15,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 0.28053090025207417,
+   "p_holm": 1.0
+  },
+  {
+   "test": "E4 people over target, surge (%)",
+   "a": "self-driving",
+   "b": "reactive",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.14787854941307627,
+   "median_diff": -0.14787854941307627,
+   "a_lower_in": 16,
+   "ties": 13,
+   "ci95": [
+    -0.15898291375998383,
+    0.0
+   ],
+   "p": 0.00042000636730403496,
+   "p_holm": 0.0042000636730403496
+  },
+  {
+   "test": "E4 people over target, surge (%)",
+   "a": "self-driving",
+   "b": "static",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "median_diff": 0.0,
+   "a_lower_in": 6,
+   "ties": 23,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 0.02799181548566574,
+   "p_holm": 0.22393452388532592
+  },
+  {
+   "test": "E4 people over target, workshop (%)",
+   "a": "self-driving",
+   "b": "reactive",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.053051607252619086,
+   "median_diff": -0.053051607252619086,
+   "a_lower_in": 18,
+   "ties": 12,
+   "ci95": [
+    -0.08070327136474997,
+    0.0
+   ],
+   "p": 0.00019609335453373022,
+   "p_holm": 0.0021570268998710325
+  },
+  {
+   "test": "E4 people over target, workshop (%)",
+   "a": "self-driving",
+   "b": "static",
+   "n": 30,
+   "median_a": 0.0,
+   "median_b": 0.0,
+   "median_diff": 0.0,
+   "a_lower_in": 7,
+   "ties": 22,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p": 0.09289194088370531,
+   "p_holm": 0.6502435861859371
+  },
+  {
+   "test": "E4 time added to agent decision, surge (s)",
+   "a": "self-driving",
+   "b": "reactive",
+   "n": 30,
+   "median_a": 0.10880597680807114,
+   "median_b": 0.1330916155129671,
+   "median_diff": -0.029410853050649166,
+   "a_lower_in": 29,
+   "ties": 0,
+   "ci95": [
+    -0.04147701314650476,
+    -0.022172190714627504
+   ],
+   "p": 6.146728992462158e-08,
+   "p_holm": 1.1064112186431885e-06
+  },
+  {
+   "test": "E4 time added to agent decision, surge (s)",
+   "a": "self-driving",
+   "b": "static",
+   "n": 30,
+   "median_a": 0.10880597680807114,
+   "median_b": 0.12280460447072983,
+   "median_diff": -0.012251858366653323,
+   "a_lower_in": 22,
+   "ties": 0,
+   "ci95": [
+    -0.02823759615421295,
+    -0.006178657524287701
+   ],
+   "p": 0.0012321043759584427,
+   "p_holm": 0.011088939383625984
+  },
+  {
+   "test": "E4 time added to agent decision, workshop (s)",
+   "a": "self-driving",
+   "b": "reactive",
+   "n": 30,
+   "median_a": 0.08130058296956122,
+   "median_b": 0.0992093866225332,
+   "median_diff": -0.01278219511732459,
+   "a_lower_in": 26,
+   "ties": 0,
+   "ci95": [
+    -0.02651722845621407,
+    -0.008748361142352223
+   ],
+   "p": 1.991167664527893e-06,
+   "p_holm": 2.596689592379593e-05
+  },
+  {
+   "test": "E4 time added to agent decision, workshop (s)",
+   "a": "self-driving",
+   "b": "static",
+   "n": 30,
+   "median_a": 0.08130058296956122,
+   "median_b": 0.09607030730694532,
+   "median_diff": -0.02259602304548025,
+   "a_lower_in": 27,
+   "ties": 0,
+   "ci95": [
+    -0.025806554360315204,
+    -0.01715890597552061
+   ],
+   "p": 3.2391399145126343e-06,
+   "p_holm": 3.886967897415161e-05
+  },
+  {
+   "test": "E4 script requests within 1 s, surge (per s)",
+   "a": "self-driving",
+   "b": "reactive",
+   "n": 30,
+   "median_a": 17.700000000000003,
+   "median_b": 9.499999999999996,
+   "median_diff": 9.725000000000001,
+   "a_lower_in": 3,
+   "ties": 0,
+   "ci95": [
+    5.899999999999994,
+    11.975000000000005
+   ],
+   "p": 3.855675458908081e-07,
+   "p_holm": 6.554648280143738e-06
+  },
+  {
+   "test": "E4 script requests within 1 s, surge (per s)",
+   "a": "self-driving",
+   "b": "static",
+   "n": 30,
+   "median_a": 17.700000000000003,
+   "median_b": 2.3374999999999915,
+   "median_diff": 15.287500000000007,
+   "a_lower_in": 0,
+   "ties": 0,
+   "ci95": [
+    12.987500000000004,
+    17.65
+   ],
+   "p": 1.7333066441991056e-06,
+   "p_holm": 2.596689592379593e-05
+  }
+ ],
+ "pooling": [
+  {
+   "exp": "E1",
+   "arm": "history",
+   "n_alone": 3,
+   "n_lanes": 27,
+   "median_alone": 1.466,
+   "median_lanes": 2.220057067461312,
+   "p": 0.04088669950738916
+  },
+  {
+   "exp": "E1",
+   "arm": "plan",
+   "n_alone": 3,
+   "n_lanes": 27,
+   "median_alone": 1.042,
+   "median_lanes": 1.2828847393393517,
+   "p": 0.19999999999999996
+  },
+  {
+   "exp": "E1",
+   "arm": "production",
+   "n_alone": 3,
+   "n_lanes": 27,
+   "median_alone": 9.425,
+   "median_lanes": 12.399362516589463,
+   "p": 0.425615763546798
+  },
+  {
+   "exp": "E2 (stage 1)",
+   "arm": "history",
+   "n_alone": 3,
+   "n_lanes": 27,
+   "median_alone": 9.75609756097561,
+   "median_lanes": 10.256410256410255,
+   "p": 0.9724173634110098
+  },
+  {
+   "exp": "E2 (stage 1)",
+   "arm": "plan",
+   "n_alone": 3,
+   "n_lanes": 27,
+   "median_alone": 0.0,
+   "median_lanes": 0.0,
+   "p": 0.30678690676539866
+  },
+  {
+   "exp": "E2 (stage 1)",
+   "arm": "production",
+   "n_alone": 3,
+   "n_lanes": 27,
+   "median_alone": 0.0,
+   "median_lanes": 0.0,
+   "p": 0.35103959139098584
+  }
+ ]
+}

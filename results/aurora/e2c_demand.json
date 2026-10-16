@@ -1,0 +1,200 @@
+{
+ "assumptions": {
+  "dau_per_mau": 0.2,
+  "peak_hour_share": 0.15,
+  "session_min": {
+   "novice": 20,
+   "research": 20,
+   "power": 30,
+   "prototype": 20,
+   "industry": 20,
+   "education": 30,
+   "ehs": 10,
+   "visitor": 4
+  },
+  "registered_mix": {
+   "novice": 30,
+   "research": 30,
+   "power": 8,
+   "prototype": 4,
+   "industry": 4,
+   "education": 40,
+   "ehs": 3
+  }
+ },
+ "anchors": {
+  "cloudlab_mau": [
+   1400,
+   "CloudLab active users per month (facility plan)"
+  ],
+  "flux_users": [
+   20000,
+   "researchers and students who have used Flux facilities (facility plan)"
+  ],
+  "youtube_views": [
+   5500000.0,
+   "views on the Sparks YouTube channel, 760+ videos (facility plan)"
+  ],
+  "podcast_downloads": [
+   800000.0,
+   "Materialism Podcast downloads (facility plan)"
+  ]
+ },
+ "scenarios": [
+  {
+   "key": "P4",
+   "name": "proposal year 4 (E2): workshops and proposals from 20 % of US groups",
+   "note": "E2 stage, unchanged",
+   "users": {
+    "staff": 4,
+    "novice": 30,
+    "research": 30,
+    "power": 8,
+    "prototype": 4,
+    "industry": 4,
+    "education": 40,
+    "ehs": 3
+   },
+   "users_total": 123,
+   "actions_per_s": 10.8,
+   "open_share": 0.0
+  },
+  {
+   "key": "N1",
+   "name": "open national service, CloudLab parity",
+   "note": "1,400 registered users a month (CloudLab); 5,000 anonymous visitors a month",
+   "users": {
+    "staff": 4.0,
+    "novice": 3.5,
+    "research": 3.5,
+    "power": 1.4,
+    "prototype": 0.5,
+    "industry": 0.5,
+    "education": 7.1,
+    "ehs": 0.2,
+    "visitor": 1.7
+   },
+   "users_total": 22,
+   "actions_per_s": 2.0,
+   "open_share": 0.043
+  },
+  {
+   "key": "N2",
+   "name": "open national service, 10x CloudLab",
+   "note": "14,000 registered users a month (Flux lifetime 20,000 users as the ceiling); 50,000 visitors a month",
+   "users": {
+    "staff": 4.0,
+    "novice": 35.3,
+    "research": 35.3,
+    "power": 14.1,
+    "prototype": 4.7,
+    "industry": 4.7,
+    "education": 70.6,
+    "ehs": 1.8,
+    "visitor": 16.7
+   },
+   "users_total": 187,
+   "actions_per_s": 15.9,
+   "open_share": 0.052
+  },
+  {
+   "key": "N3",
+   "name": "N2 + synchronous classes",
+   "note": "8 university classes of 40 and 2 K-12 classrooms of 30 on the Workbench in the same hour",
+   "users": {
+    "staff": 4.0,
+    "novice": 35.3,
+    "research": 35.3,
+    "power": 14.1,
+    "prototype": 4.7,
+    "industry": 4.7,
+    "education": 450.6,
+    "ehs": 1.8,
+    "visitor": 16.7
+   },
+   "users_total": 567,
+   "actions_per_s": 41.3,
+   "open_share": 0.02
+  },
+  {
+   "key": "N4",
+   "name": "N2 + machine clients",
+   "note": "50 API scripts or AI agents (30 queries/min each) and 2 crawlers (10 pages/s each)",
+   "users": {
+    "staff": 4.0,
+    "novice": 35.3,
+    "research": 35.3,
+    "power": 14.1,
+    "prototype": 4.7,
+    "industry": 4.7,
+    "education": 70.6,
+    "ehs": 1.8,
+    "visitor": 16.7,
+    "agent": 50.0,
+    "crawler": 2.0
+   },
+   "users_total": 239,
+   "actions_per_s": 60.9,
+   "open_share": 0.752
+  },
+  {
+   "key": "B1",
+   "name": "N2 + media burst, 30,000 visits in a day",
+   "note": "a video or news item linking to the archive; 25 % of the day's visits in its first hour",
+   "users": {
+    "staff": 4.0,
+    "novice": 35.3,
+    "research": 35.3,
+    "power": 14.1,
+    "prototype": 4.7,
+    "industry": 4.7,
+    "education": 70.6,
+    "ehs": 1.8,
+    "visitor": 500.0
+   },
+   "users_total": 670,
+   "actions_per_s": 40.1,
+   "open_share": 0.624
+  },
+  {
+   "key": "B2",
+   "name": "N2 + media burst, 100,000 visits in a day",
+   "note": "a widely shared post (national news, social media); 25 % in the first hour",
+   "users": {
+    "staff": 4.0,
+    "novice": 35.3,
+    "research": 35.3,
+    "power": 14.1,
+    "prototype": 4.7,
+    "industry": 4.7,
+    "education": 70.6,
+    "ehs": 1.8,
+    "visitor": 1666.7
+   },
+   "users_total": 1837,
+   "actions_per_s": 98.4,
+   "open_share": 0.847
+  },
+  {
+   "key": "W",
+   "name": "worst plausible hour: N3 + N4 + B2",
+   "note": "all of the above at once",
+   "users": {
+    "staff": 4.0,
+    "novice": 35.3,
+    "research": 35.3,
+    "power": 14.1,
+    "prototype": 4.7,
+    "industry": 4.7,
+    "education": 450.6,
+    "ehs": 1.8,
+    "visitor": 1666.7,
+    "agent": 50.0,
+    "crawler": 2.0
+   },
+   "users_total": 2269,
+   "actions_per_s": 168.8,
+   "open_share": 0.76
+  }
+ ]
+}

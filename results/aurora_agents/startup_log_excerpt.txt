@@ -1,0 +1,5 @@
+INFO 10-07 07:38:42 [default_loader.py:430] Loading weights took 44.64 seconds
+INFO 10-07 07:38:43 [gpu_model_runner.py:5515] Model loading took 17.66 GiB memory and 47.024475 seconds
+INFO 10-07 07:39:11 [monitor.py:53] torch.compile took 20.69 s in total
+INFO 10-07 07:40:30 [core.py:347] init engine (profile, create kv cache, warmup model) took 106.99 s (compilation: 20.69 s)
+INFO:     Application startup complete.
